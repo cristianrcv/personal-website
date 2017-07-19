@@ -1,32 +1,46 @@
+Cristian Ramon-Cortes Vilarrodona Personal Webpage
 =============================
-Sleek Blog
-=============================
 
-[Live Website](http://gearoidoconnor.ie)
+[Live Website](https://cristianrcv.netlify.com)
 
 
-A blog project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+A personal webpage using Jekyll and Netify.
+
+Based on Sleek Blog: https://github.com/bawn92/sleek_blog.git
 
 
-## System Preparation
+## Sytem Preparation
 
-To use this project, you'll need the following things installed on your machine.
-
-1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
-2. [NodeJS](http://nodejs.org) - use the installer.
-3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
-
-## Local Installation
-
-1. Clone this repo, or download it into a directory of your choice.
-2. Inside the directory, run `npm install`.
-
-## Usage
-
-**development mode**
-
-This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
+**Install NODE.JS**
 
 ```shell
-$ gulp
+sudo zypper ar http://download.opensuse.org/repositories/devel:/languages:/nodejs/openSUSE_Leap_42.2/ nodejs
+sudo zypper in nodejs nodejs-devel
 ```
+
+**Install jekyll**
+
+```shell
+sudo npn install jekyll
+sudo ln -s jekyll.ruby2.1 jekyll
+```
+
+**Install webpage dependencies**
+
+```shell
+sudo npm install -g gulp gulp-cli
+sudo npm install child_process browser-sync gulp-sass gulp-autoprefixer gulp-jade gulp-util jekyll --save-dev
+sudo gem install redcarpet
+```
+
+**Build**
+
+```shell
+gulp
+```
+
+
+## Template customization
+
+Under construction
+
