@@ -598,7 +598,7 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
   .logo {
     height: 70px;
     width: 70px;
-    background: url(../img/GOC1.png) center center;
+    background: url(../img/logo.png) center center;
     background-size: 70px 47px;
     background-repeat: no-repeat;
     position: fixed;
@@ -628,7 +628,7 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
   .logo {
     height: 90px;
     width: 90px;
-    background: url(../img/GOC1.png) center center;
+    background: url(../img/logo.png) center center;
     width: 88px;
     height: 47px;
     background-size: 88px 47px;
@@ -732,7 +732,6 @@ footer {
       display: -webkit-box;
       display: -moz-box;
       display: box;
-      display: -webkit-flex;
       display: -moz-flex;
       display: -ms-flexbox;
       display: flex;
@@ -753,7 +752,6 @@ footer {
       border-radius: 50%;
       -webkit-box-ordinal-group: 3;
       box-ordinal-group: 3;
-      -webkit-order: 3;
       -moz-order: 3;
       order: 3;
       -ms-flex-order: 3; }
@@ -765,8 +763,7 @@ footer {
       width: 200px;
       border-radius: 50%; }
     .about-lock .flipper {
-      -webkit-transition: 0.6s;
-              transition: 0.6s;
+      transition: 0.6s;
       -webkit-transform-style: preserve-3d;
               transform-style: preserve-3d;
       position: relative; }
@@ -798,14 +795,12 @@ footer {
     display: -webkit-box;
     display: -moz-box;
     display: box;
-    display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
     -webkit-box-align: center;
     box-align: center;
-    -webkit-align-items: center;
     -moz-align-items: center;
     -ms-align-items: center;
     -o-align-items: center;
@@ -813,7 +808,6 @@ footer {
     -ms-flex-align: center;
     -webkit-box-pack: justify;
     box-pack: justify;
-    -webkit-justify-content: space-between;
     -moz-justify-content: space-between;
     -ms-justify-content: space-between;
     -o-justify-content: space-between;
@@ -822,7 +816,6 @@ footer {
     .about-lock .flaticon-cogwheel28 {
       -webkit-box-ordinal-group: 1;
       box-ordinal-group: 1;
-      -webkit-order: 1;
       -moz-order: 1;
       order: 1;
       -ms-flex-order: 1;
@@ -830,7 +823,6 @@ footer {
     .about-lock .flaticon-computer1 {
       -webkit-box-ordinal-group: 2;
       box-ordinal-group: 2;
-      -webkit-order: 2;
       -moz-order: 2;
       order: 2;
       -ms-flex-order: 2;
@@ -838,7 +830,6 @@ footer {
     .about-lock .flaticon-hosting {
       -webkit-box-ordinal-group: 4;
       box-ordinal-group: 4;
-      -webkit-order: 4;
       -moz-order: 4;
       order: 4;
       -ms-flex-order: 4;
@@ -846,7 +837,6 @@ footer {
     .about-lock .flaticon-computers13 {
       -webkit-box-ordinal-group: 5;
       box-ordinal-group: 5;
-      -webkit-order: 5;
       -moz-order: 5;
       order: 5;
       -ms-flex-order: 5;
@@ -859,7 +849,6 @@ footer {
       font-size: 60px;
       line-height: 70px;
       color: #303e49;
-      -webkit-transition: all 0.15s ease-out 0s;
       transition: all 0.15s ease-out 0s;
       margin-left: 0; } }
 
@@ -885,13 +874,11 @@ footer {
   display: -webkit-box;
   display: -moz-box;
   display: box;
-  display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: distribute;
   box-pack: distribute;
-  -webkit-justify-content: space-around;
   -moz-justify-content: space-around;
   -ms-justify-content: space-around;
   -o-justify-content: space-around;
@@ -905,7 +892,6 @@ footer {
     font-size: 60px;
     line-height: 70px;
     color: #303e49;
-    -webkit-transition: all 0.15s ease-out 0s;
     transition: all 0.15s ease-out 0s;
     margin-left: 0; }
 
@@ -1244,13 +1230,11 @@ form {
   display: -webkit-box;
   display: -moz-box;
   display: box;
-  display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   box-align: center;
-  -webkit-align-items: center;
   -moz-align-items: center;
   -ms-align-items: center;
   -o-align-items: center;
@@ -1258,7 +1242,6 @@ form {
   -ms-flex-align: center;
   -webkit-box-pack: justify;
   box-pack: justify;
-  -webkit-justify-content: space-between;
   -moz-justify-content: space-between;
   -ms-justify-content: space-between;
   -o-justify-content: space-between;
@@ -1273,14 +1256,12 @@ form {
     display: -webkit-box;
     display: -moz-box;
     display: box;
-    display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
     margin: 10 auto;
     -webkit-box-align: center;
     box-align: center;
-    -webkit-align-items: center;
     -moz-align-items: center;
     -ms-align-items: center;
     -o-align-items: center;
@@ -1288,7 +1269,6 @@ form {
     -ms-flex-align: center;
     -webkit-box-pack: justify;
     box-pack: justify;
-    -webkit-justify-content: space-between;
     -moz-justify-content: space-between;
     -ms-justify-content: space-between;
     -o-justify-content: space-between;
@@ -1430,7 +1410,6 @@ form {
       left: 0px;
       height: 100%;
       background: rgba(201, 144, 101, 0.9);
-      -webkit-transition: all 0.15s ease-out 0s;
       transition: all 0.15s ease-out 0s; }
     .thumb-container .thumb-unit:hover .thumb-overlay {
       position: absolute;
