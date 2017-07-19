@@ -1,13 +1,13 @@
 {
-  "name": "browser-sync-jekyll",
+  "name": "personal-webpage",
   "version": "0.0.0",
-  "description": "My starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "description": "My starter project of a personal webpage, including Jekyll, Gulp, SASS and Netlify",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shane Osbourne",
-  "license": "ISC",
+  "author": "Cristian Ramon-Cortes Vilarrodona",
+  "license": "Apache 2.0",
   "devDependencies": {
     "browser-sync": "^2.8.0",
     "gulp": "^3.9.0",
@@ -17,16 +17,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bawn92/bawn92.git"
+    "url": "https://github.com/cristianrcv/personal-webpage.git"
   },
   "keywords": [
     "jekyll",
     "gulp",
     "sass",
-    "browsersync"
+    "browsersync",
+    "netlify"
   ],
   "bugs": {
-    "url": "https://github.com/bawn92/bawn92.git"
+    "url": "https://github.com/cristianrcv/personal-webpage.git"
   },
-  "homepage": "https://github.com/bawn92/bawn92.git"
+  "homepage": "https://github.com/cristianrcv/personal-webpage.git"
 }
