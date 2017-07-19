@@ -41,11 +41,15 @@ sudo gem install redcarpet
 ## Template customization
 
 \_jadefiles		: Change web content
+
 \_posts/		: Add posts content
+
 assets/img/		: Change images (background, face, etc.)
 
 \_layouts/default.html	: Change webpage title
+
 \_layouts/post.html	: Change Disqus link
+
 assets/css/		: Change image names if required
 
 
