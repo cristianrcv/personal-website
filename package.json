@@ -29,5 +29,9 @@
   "bugs": {
     "url": "https://github.com/cristianrcv/personal-webpage.git"
   },
-  "homepage": "https://github.com/cristianrcv/personal-webpage.git"
+  "homepage": "https://github.com/cristianrcv/personal-webpage.git",
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.omit": "^4.5.0"
+  }
 }
