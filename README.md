@@ -1,3 +1,12 @@
+<!-- [![Build Status](https://travis-ci.org/XX)](https://travis-ci.org/XX) -->
+<!-- [![Coverage Status](https://codecov.io/github/XX)](https://codecov.io/github/XX) -->
+[![Code Status](https://api.codacy.com/project/badge/Grade/cb48abdc642a4c159705ae77188fbf5a)](https://www.codacy.com/app/cristianrcv/personal-webpage?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cristianrcv/personal-webpage&amp;utm_campaign=Badge_Grade)
+<!-- [![Maven Central](https://maven-badges.herokuapp.com/maven-central/XX)](https://maven-badges.herokuapp.com/maven-central/XX) -->
+[![Dependency Status](https://www.versioneye.com/user/projects/59f6eca40fb24f1f01ae45a1/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59f6eca40fb24f1f01ae45a1)
+<!-- [![Javadocs](http://javadoc.io/badge/XX.svg)](http://javadoc.io/doc/XX) -->
+[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cristianrcv/personal-webpage/blob/master/LICENSE)
+[![Language](http://img.shields.io/badge/language-scala-brightgreen.svg)](https://img.shields.io/badge/language-JavaScript-brightgreen.svg)
+
 Cristian Ramon-Cortes Vilarrodona Personal Webpage
 =============================
 
