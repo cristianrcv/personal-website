@@ -9,7 +9,7 @@
 <!-- [![Maven Central](https://maven-badges.herokuapp.com/maven-central/XX)](https://maven-badges.herokuapp.com/maven-central/XX) -->
 
 <!-- Dependencies update status -->
-[![Dependency Status](https://www.versioneye.com/user/projects/59f6eca40fb24f1f01ae45a1/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59f6eca40fb24f1f01ae45a1)
+[![Dependency Status](https://www.versioneye.com/user/projects/59f6fd4c0fb24f1f1f38c653/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59f6fd4c0fb24f1f1f38c653)
 
 <!-- Java DOC status -->
 <!-- [![Javadocs](http://javadoc.io/badge/XX.svg)](http://javadoc.io/doc/XX) -->
