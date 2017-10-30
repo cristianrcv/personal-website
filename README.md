@@ -1,11 +1,25 @@
+<!-- Automatic builds status -->
 <!-- [![Build Status](https://travis-ci.org/XX)](https://travis-ci.org/XX) -->
+
+<!-- Test coverage status -->
 <!-- [![Coverage Status](https://codecov.io/github/XX)](https://codecov.io/github/XX) -->
 [![Code Status](https://api.codacy.com/project/badge/Grade/cb48abdc642a4c159705ae77188fbf5a)](https://www.codacy.com/app/cristianrcv/personal-webpage?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cristianrcv/personal-webpage&amp;utm_campaign=Badge_Grade)
+
+<!-- Maven central packages version -->
 <!-- [![Maven Central](https://maven-badges.herokuapp.com/maven-central/XX)](https://maven-badges.herokuapp.com/maven-central/XX) -->
+
+<!-- Dependencies update status -->
 [![Dependency Status](https://www.versioneye.com/user/projects/59f6eca40fb24f1f01ae45a1/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59f6eca40fb24f1f01ae45a1)
+
+<!-- Java DOC status -->
 <!-- [![Javadocs](http://javadoc.io/badge/XX.svg)](http://javadoc.io/doc/XX) -->
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/cristianrcv/personal-webpage/blob/master/LICENSE)
+
+<!-- Main Repository language -->
 [![Language](https://img.shields.io/badge/language-JavaScript-brightgreen.svg)](https://img.shields.io/badge/language-JavaScript-brightgreen.svg)
+
+<!-- Repository License -->
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/cristianrcv/personal-webpage/blob/master/LICENSE)
+
 
 Cristian Ramon-Cortes Vilarrodona Personal Webpage
 =============================
