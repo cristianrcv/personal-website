@@ -4,8 +4,8 @@
 <!-- [![Maven Central](https://maven-badges.herokuapp.com/maven-central/XX)](https://maven-badges.herokuapp.com/maven-central/XX) -->
 [![Dependency Status](https://www.versioneye.com/user/projects/59f6eca40fb24f1f01ae45a1/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59f6eca40fb24f1f01ae45a1)
 <!-- [![Javadocs](http://javadoc.io/badge/XX.svg)](http://javadoc.io/doc/XX) -->
-[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cristianrcv/personal-webpage/blob/master/LICENSE)
-[![Language](http://img.shields.io/badge/language-scala-brightgreen.svg)](https://img.shields.io/badge/language-JavaScript-brightgreen.svg)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/cristianrcv/personal-webpage/blob/master/LICENSE)
+[![Language](https://img.shields.io/badge/language-JavaScript-brightgreen.svg)](https://img.shields.io/badge/language-JavaScript-brightgreen.svg)
 
 Cristian Ramon-Cortes Vilarrodona Personal Webpage
 =============================
