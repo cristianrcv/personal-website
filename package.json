@@ -1,6 +1,6 @@
 {
   "name": "personal-webpage",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "My starter project of a personal webpage, including Jekyll, Gulp, SASS and Netlify",
   "main": "gulpfile.js",
   "scripts": {
@@ -11,9 +11,9 @@
   "devDependencies": {
     "browser-sync": "^2.8.0",
     "gulp": "^3.9.0",
-    "gulp-autoprefixer": "2.3.1",
+    "gulp-autoprefixer": "4.0.0",
     "gulp-jade": "^1.0.1",
-    "gulp-sass": "^2.0.4"
+    "gulp-sass": "^3.1.0"
   },
   "repository": {
     "type": "git",
