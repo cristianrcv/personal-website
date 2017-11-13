@@ -5,13 +5,27 @@ date:   2017-03-01
 categories: blog
 ---
 
+Title:
+
 Transparent Execution of Task-Based Parallel Applications in Docker with COMP Superscalar
+
+
+Type:
+
+Conference Paper
+
+
+Publisher:
 
 2017 25th Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP)
 
+
 Authors: 
-Cristian Ramon-Cortes Vilarrodona, Victor Anton, Jorge Ejarque, Rosa M. Badia
+
+Victor Anton, Cristian Ramon-Cortes Vilarrodona, Jorge Ejarque, Rosa M. Badia
+
 
 Abstract: 
+
 This paper presents a framework to easily build and execute parallel applications in container-based distributed computing platforms in a user transparent way. The proposed framework is a combination of the COMP Superscalar and Docker. We have built a prototype in order to evaluate how it performs by evaluating the overhead in the building, deployment and execution phases. We have observed an important gain compared with cloud environments during the building and deployment phases. In contrast, we have detected an extra overhead during the execution, which is mainly due to the multi-host Docker networking.
 
