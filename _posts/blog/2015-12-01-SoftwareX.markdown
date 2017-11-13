@@ -5,7 +5,7 @@ date:   2015-12-01
 categories: blog
 ---
 
-<h1>Title:</h2>
+<h1>Title:</h1>
 COMP Superscalar, an interoperable programming framework
 
 <h2>Type:</h2>
