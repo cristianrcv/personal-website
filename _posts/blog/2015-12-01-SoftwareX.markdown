@@ -5,14 +5,14 @@ date:   2015-12-01
 categories: blog
 ---
 
-<h2>Title:</h2>
+<h1>Title:</h2>
 COMP Superscalar, an interoperable programming framework
 
 <h2>Type:</h2>
 Journal Paper
 
 
-Publisher:
+<h3>Publisher:</h3>
 
 2015 Software X
 
