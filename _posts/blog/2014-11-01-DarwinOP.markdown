@@ -5,32 +5,23 @@ date:   2014-11-01
 categories: blog
 ---
 
-Title:
-
+<h2>Title</h2>
 Design, implementation, and integration of a hand for a Darwin-OP robot
 
-
-Original Title:
-
+<h2>Original Title</h2> 
 Disseny, implementació i integració d'una mà per a un robot Darwin-OP
 
-
-Type:
-
+<h2>Type</h2> 
 Final Degree Project (Master Thesis)
 
-
-Publisher:
-
+<h2>Publisher</h2>
 2014, UPC Commons
 
-
-Authors:
-
+<h2>Authors</h2> 
 Cristian Ramon-Cortes Vilarrodona
 
-
-Abstract:
-
+<h2>Abstract</h2> 
+<p align="justify">
 Aquest projecte vol dotar al robot Darwin-OP de la capacitat d’agafar petits objectes mitjançant el disseny, la implementació i la integració d’una mà antropomòrfica (avantbraç, canell, mà i dits). Es considera de gran importància que el prototipus final sigui de construcció ràpida i baix cost. En primer lloc es presenta breument el context actual de la robòtica, centrant-se particularment en el desenvolupament de braços robòtics i de petits humanoides. Tanmateix, es fa una comparació del robot emprat per aquest projecte i el seu competidor directe: Nao. Seguidament es detalla el procés de disseny de la mà que es duu a terme mitjançant un programari de CAD-3D (SolidWorks). Al final d’aquest apartat es fa especial al·lusió al disseny del prototipus final, detallant-ne els plànols per a que els usuaris del robot Darwin-OP el puguin emprar. Gairebé simultàniament a aquest darrer procés s’explica el procés d’implementació, que s’ha realitzat mitjançant una impressora d’ABS 3D. En particular, es fa referència als avantatges i als inconvenients que aquest mètode aporta, i a la senzillesa constructiva de muntatge de la mà. A continuació es tanca el procés de construcció amb la integració hardware i software del prototipus al robot Darwin-OP. En aquest apartat es presenten els servomotors Robotis Dynamixel XL-320 emprats, s’especifica la seva instal·lació per a unir la mà amb el robot i es detalla el codi del controlador per a que Darwin-OP reconegui i es comuniqui amb els servomotors. A més, s’adjunten les proves realitzades per a verificar el correcte funcionament del prototipus. Per últim, es constata que el prototipus construït compleix les necessitats inicials: dota al Darwin-OP de la capacitat d’agafar objectes petits, és de construcció ràpida i és de baix cost. Així mateix, s’enumeren els aspectes ampliables d’aquest projecte com podria ser la introducció de sensors de pressió als dits.
+</p>
 
