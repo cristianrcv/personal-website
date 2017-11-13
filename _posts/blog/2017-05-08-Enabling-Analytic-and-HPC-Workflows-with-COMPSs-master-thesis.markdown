@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Master Thesis: Enabling Analytic and HPC Workflows with COMPSs"
-date:   2014-11-01
+date:   2017-05-08
 categories: blog
 ---
 
