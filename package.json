@@ -1,37 +1,45 @@
 {
-  "name": "personal-webpage",
-  "version": "1.0.0",
-  "description": "My starter project of a personal webpage, including Jekyll, Gulp, SASS and Netlify",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Cristian Ramon-Cortes Vilarrodona",
-  "license": "Apache 2.0",
-  "devDependencies": {
-    "browser-sync": "^2.8.0",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "4.0.0",
-    "gulp-jade": "^1.0.1",
-    "gulp-sass": "^3.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cristianrcv/personal-webpage.git"
-  },
-  "keywords": [
-    "jekyll",
-    "gulp",
-    "sass",
-    "browsersync",
-    "netlify"
-  ],
-  "bugs": {
-    "url": "https://github.com/cristianrcv/personal-webpage.git"
-  },
-  "homepage": "https://github.com/cristianrcv/personal-webpage.git",
-  "dependencies": {
-    "lodash.clonedeep": "^4.5.0",
-    "lodash.omit": "^4.5.0"
-  }
+        "//": "Project description"
+        "name": "personal-webpage",
+        "version": "1.0.0",
+        "description": "My starter project of a personal webpage, including Jekyll, Gulp, SASS and Netlify",
+        "keywords": [
+                "jekyll",
+                "gulp",
+                "sass",
+                "browsersync",
+                "netlify"
+        ],
+        "license": "Apache 2.0",
+        "author": "Cristian Ramon-Cortes Vilarrodona",
+
+        "//": "Repository Description"
+        "homepage": "https://github.com/cristianrcv/personal-webpage.git",
+        "repository": {
+                "type": "git",
+                "url": "https://github.com/cristianrcv/personal-webpage.git"
+        },
+        "bugs": {
+                "url": "https://github.com/cristianrcv/personal-webpage.git"
+        },
+
+        "//": "Dependencies"
+        "dependencies": {
+                "lodash.clonedeep": "^4.5.0",
+                "lodash.omit": "^4.5.0"
+        }
+        "devDependencies": {
+                "browser-sync": "^2.8.0",
+                "gulp": "^3.9.0",
+                "gulp-autoprefixer": "4.0.0",
+                "gulp-jade": "^1.0.1",
+                "gulp-sass": "^3.1.0"
+        },
+
+
+        "//": "Run"
+        "main": "gulpfile.js",
+        "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+        },
 }

@@ -10,8 +10,6 @@ var messages = {
 };
 
 
-
-
 /**
  * Build the Jekyll Site
  */
@@ -21,18 +19,12 @@ gulp.task('jekyll-build', function (done) {
         .on('close', done);
 });
 
-
-
-
 /**
  * Rebuild Jekyll & do page reload
  */
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
-
-
-
 
 /**
  * Wait for jekyll-build, then launch the Server
@@ -45,9 +37,6 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
         notify: false
     });
 });
-
-
-
 
 /**
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
@@ -74,7 +63,6 @@ gulp.task('jade', function(){
   .pipe(gulp.dest('_includes'));
 });
 
-
 /**
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
@@ -86,8 +74,6 @@ gulp.task('watch', function () {
     gulp.watch('assets/js/**', ['jekyll-rebuild']);
     gulp.watch('_jadefiles/*.jade', ['jade']);
 });
-
-
 
 
 /**
