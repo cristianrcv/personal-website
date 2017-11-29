@@ -12,7 +12,6 @@
         ],
         "license": "Apache 2.0",
         "author": "Cristian Ramon-Cortes Vilarrodona",
-
         "//": "Repository Description"
         "homepage": "https://github.com/cristianrcv/personal-webpage.git",
         "repository": {
@@ -22,7 +21,6 @@
         "bugs": {
                 "url": "https://github.com/cristianrcv/personal-webpage.git"
         },
-
         "//": "Dependencies"
         "dependencies": {
                 "lodash.clonedeep": "^4.5.0",
@@ -35,8 +33,6 @@
                 "gulp-jade": "^1.0.1",
                 "gulp-sass": "^3.1.0"
         },
-
-
         "//": "Run"
         "main": "gulpfile.js",
         "scripts": {
