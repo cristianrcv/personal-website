@@ -25,3 +25,5 @@ Python has been adopted as programming language by a large number of scientific 
 This paper presents PyCOMPSs and how it has been tailored to execute tasks in heterogeneous and multi-threaded environments. We present an approach to combine the task-level parallelism provided by PyCOMPSs with the thread-level parallelism provided by MKL. Performance and behavioral results in distributed computing heterogeneous clusters show the benefits and capabilities of PyCOMPSs in both HPC and Big Data infrastructures.
 </p>
 
+<h2><a href="https://doi.org/10.1145/3149869.3149870" target="_blank">Original Text Here</a>
+

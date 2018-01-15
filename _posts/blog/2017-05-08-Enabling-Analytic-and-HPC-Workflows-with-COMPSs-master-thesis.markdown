@@ -31,3 +31,5 @@ This Master Thesis aims to enhance COMPSs, adapting it to the needs of the Big-D
 <h2>Keywords</h2>
 HPC, Distributed Computing, Workflows, COMPSs, PyCOMPSs
 
+<h2><a href="http://upcommons.upc.edu/handle/2117/111458" target="_blank">Original Text Here</a>
+
