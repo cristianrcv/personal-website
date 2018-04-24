@@ -1,15 +1,2 @@
-_site/
-.sass-cache/
-*.gem
-*.swp
-*~
-.bundle/
-.jekyll-metadata
-.ruby-gemset
-.ruby-version
-.sass-cache
-/vendor
-Gemfile.lock
-bin/
-_site/
-node_modules
+public/
+.idea/

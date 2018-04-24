@@ -1,3 +1,0 @@
-name: Cristian Ramon-Cortes Vilarrodona
-markdown: redcarpet
-exclude: ["node_modules", "gulpfile.js", "package.json", "vendor"]
