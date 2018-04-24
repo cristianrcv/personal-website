@@ -20,7 +20,7 @@
 [![Language](https://img.shields.io/badge/language-JavaScript-brightgreen.svg)](https://img.shields.io/badge/language-JavaScript-brightgreen.svg)
 
 <!-- Repository License -->
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/cristianrcv/personal-webpage/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/cristianrcv/personal-webpage/blob/master/LICENSE.md)
 
 
 Cristian Ramon-Cortes Vilarrodona Personal Webpage
