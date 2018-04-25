@@ -12,7 +12,7 @@ title = "Cristian Ramon-Cortes Vilarrodona"
 # To display a copyright symbol, type `&copy;`.
 copyright = "&copy; 2018"
 
-theme = "academic"
+theme = "my-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -54,7 +54,7 @@ enableGitInfo = true
   font = "default"
 
   # Your details.
-  name = "Cristian Ramon-Cortes Vilarrodona"
+  name = "Cristian <br> Ramon-Cortes <br> Vilarrodona"
   role = "PhD Student"
 
   # Organizations/Affiliations.
