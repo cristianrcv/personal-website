@@ -12,7 +12,7 @@ weight = 40
 
 +++
 
-My favorite hobbies are motorbiking and gaming, mostly depending on the weather :D
+My favorite hobbies are motorbiking and gaming, mostly depending on the weather :smiley:
 
 <h2>Motorbiking</h2>
 
