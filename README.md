@@ -17,7 +17,7 @@
 <!-- [![Javadocs](http://javadoc.io/badge/XX.svg)](http://javadoc.io/doc/XX) -->
 
 <!-- Main Repository language -->
-[![Language](https://img.shields.io/badge/language-JavaScript-brightgreen.svg)](https://img.shields.io/badge/language-JavaScript-brightgreen.svg)
+[![Language](https://img.shields.io/badge/language-Shell-yellowgreen.svg)](https://img.shields.io/badge/language-JavaScript-brightgreen.svg)
 
 <!-- Repository License -->
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/cristianrcv/personal-webpage/blob/master/LICENSE.md)
