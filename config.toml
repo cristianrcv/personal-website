@@ -59,7 +59,7 @@ enableGitInfo = true
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Barcelona Supercomputing Center (BSC)", url = "https://www.bsc.es" }, { name = "Universitat Politecnica de Catalunya (UPC)", url = "https://www.upc.edu/es" } ]
+  organizations = [ { name = "Barcelona Supercomputing Center (BSC)", url = "https://www.bsc.es" }, { name = "Politechnical University of Catalonia (UPC)", url = "https://www.upc.edu/es" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -319,7 +319,11 @@ enableGitInfo = true
 
 # Configure the Spanish version of the website
 [Languages.es]
-  languageCode = "es-ES"
+  languageCode = "es-es"
+  role = "Estudiante de Doctorado"
+  organizations = [ { name = "Barcelona Supercomputing Center (BSC)", url = "https://www.bsc.es" }, { name = "Universidad Politécnica de Cataluña (UPC)", url = "https://www.upc.edu/es" } ]
+  address = "Edificio K2M Sala 105. C/ Jordi Girona, 1-3, Barcelona, 08034, CATALUÑA, ESPAÑA"
+  office_hours = "Solicitar cita por e-mail"
 
 [[Languages.es.menu.main]]
   name = "Home"
@@ -342,7 +346,7 @@ enableGitInfo = true
   weight = 4
 
 [[Languages.es.menu.main]]
-  name = "Hobbies"
+  name = "Aficiones"
   url = "#40_hobbies"
   weight = 5
 
@@ -353,6 +357,92 @@ enableGitInfo = true
 
 [[Languages.es.menu.main]]
   name = "Contacto"
+  url = "#60_contact"
+  weight = 7
+
+# Configure the Catalan version of the website
+[Languages.ca]
+  languageCode = "ca-ca"
+  role = "Estudiant de Doctorat"
+  organizations = [ { name = "Barcelona Supercomputing Center (BSC)", url = "https://www.bsc.es" }, { name = "Universitat Politècnica de Catalunya (UPC)", url = "https://www.upc.edu/es" } ]
+  address = "Edifici K2M Sala 105. C/ Jordi Girona, 1-3, Barcelona, 08034, CATALUNYA, ESPANYA"
+  office_hours = "Sol·licitar cita per e-mail"
+
+[[Languages.ca.menu.main]]
+  name = "Home"
+  url = "#00_about"
+  weight = 1
+
+[[Languages.ca.menu.main]]
+  name = "Publicacions"
+  url = "#10_publications"
+  weight = 2
+
+[[Languages.ca.menu.main]]
+  name = "Projectes"
+  url = "#20_projects"
+  weight = 3
+
+[[Languages.ca.menu.main]]
+  name = "Ensenyament"
+  url = "#30_teaching"
+  weight = 4
+
+[[Languages.ca.menu.main]]
+  name = "Aficions"
+  url = "#40_hobbies"
+  weight = 5
+
+[[Languages.ca.menu.main]]
+  name = "Posts"
+  url = "#50_posts"
+  weight = 6
+
+[[Languages.ca.menu.main]]
+  name = "Contacte"
+  url = "#60_contact"
+  weight = 7
+
+# Configure the French version of the website
+[Languages.fr]
+  languageCode = "fr-fr"
+  role = "Étudiant de Doctorat"
+  organizations = [ { name = "Barcelona Supercomputing Center (BSC)", url = "https://www.bsc.es" }, { name = "Universitat Politècnica de Catalunya (UPC)", url = "https://www.upc.edu/es" } ]
+  address = "Bâtiment K2M Salle 105. C/ Jordi Girona, 1-3, Barcelona, 08034, CATALOGNE, ESPAGNE"
+  office_hours = "Rendez vous par e-mail"
+
+[[Languages.fr.menu.main]]
+  name = "Home"
+  url = "#00_about"
+  weight = 1
+
+[[Languages.fr.menu.main]]
+  name = "Publications"
+  url = "#10_publications"
+  weight = 2
+
+[[Languages.fr.menu.main]]
+  name = "Projets"
+  url = "#20_projects"
+  weight = 3
+
+[[Languages.fr.menu.main]]
+  name = "Enseignement"
+  url = "#30_teaching"
+  weight = 4
+
+[[Languages.fr.menu.main]]
+  name = "Loisirs"
+  url = "#40_hobbies"
+  weight = 5
+
+[[Languages.fr.menu.main]]
+  name = "Posts"
+  url = "#50_posts"
+  weight = 6
+
+[[Languages.fr.menu.main]]
+  name = "Contact"
   url = "#60_contact"
   weight = 7
 
