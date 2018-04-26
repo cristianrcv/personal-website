@@ -10,46 +10,48 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "High Performance Computing (HPC)",
-    "Big Data Analytics (BDA)",
-    "Distributed Computing (DC)",
-    "Data Streaming Technologies"
+    "Computación de Altas Prestaciones (CAP)",
+    "Análisis Big Data (BD)",
+    "Computación Distribuida",
+    "Análisis en tiempo real y Tecnologías de Streaming"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD Student in Computer Architecture"
-  institution = "Computer Architecture Department (DAC - UPC) and Barcelona Supercomputing Center (BSC)"
+  course = "Estudiante de Doctorado en Arquitectura de Computadores"
+  institution = "Departamento de Arquitectura de Computadores (DAC - UPC) y Barcelona Supercomputing Center (BSC)"
   year = 2021
 
 [[education.courses]]
-  course = "Master in Innovation and Research in Informatics, High Performance Computing (MIRI - HPC)"
-  institution = "Polytechnical University of Catalonia (UPC)"
+  course = "Master en Inovación e Investigación en Informática, Computación de Altas Prestaciones (MIRI - HPC)"
+  institution = "Universidad Politécnica de Cataluña (UPC)"
   year = 2017
 
 [[education.courses]]
-  course = "Double BSc Diploma"
-  institution = "Centre de Formació Interdisciplinaria Superior (CFIS - UPC)"
+  course = "Diploma de Doble Licenciatura"
+  institution = "Centro de Formación Interdisciplinaria Superior (CFIS - UPC)"
   year = 2014
 
 [[education.courses]]
-  course = "BSc in Computer Sciences Engineering"
-  institution = "Facultat d'Informatica de Barcelona (FIB - UPC)"
+  course = "Licenciatura en Ingeniería Informática"
+  institution = "Facultat de Informática de Barcelona (FIB - UPC)"
   year = 2014
 
 [[education.courses]]
-  course = "BSc in Industrial Engineering"
-  institution = "Escola Tecnica Superior d'Enginyeria Industrial de Barcelona (ETSEIB - UPC)"
+  course = "Licenciatura en Ingeniría Industrial"
+  institution = "Escuela Técnica Superior de Ingeniería Industrial de Barcelona (ETSEIB - UPC)"
   year = 2014
 
 [[education.courses]]
-  course = "Primary, Secondary and General Education"
+  course = "Primaria, Educación Secundaria Obligatória y Bachillerato"
   institution = "AULA Escola Europea"
   year = 2008
  
 +++
 
-# Biography
+# Biografía
 
-Cristián Ramón-Cortés Vilarrodona is a PhD Student for the <a href="http://www.ac.upc.edu/es" target="_blank">Computer Architecture Department (DAC - UPC)</a> working in collaboration with the <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/workflows-and-distributed-computing" target="_blank">Workflows and Distributed Computing group (WDC)</a> at the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a>. He is actively involved in the development of Frameworks for Analytic and HPC workflows; such as <a href="http://compss.bsc.es" target="_blank">COMP Superscalar (COMPSs)</a>.
+Cristián Ramón-Cortés Vilarrodona es un Estudiante de Doctorado para el <a href="http://www.ac.upc.edu/es" target="_blank">Departamento de Arquitectura de Computadores (DAC - UPC)</a>, en colaboración con el grupo de <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/workflows-and-distributed-computing" target="_blank">Workflows and Distributed Computing (WDC)</a> del <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a>. Desarrolla de forma activa herramientas para la ejecución distribuida de flujos de trabajo analíticos y de alta computación, como por ejemplo <a href="http://compss.bsc.es" target="_blank">COMP Superscalar (COMPSs)</a>.
+
+Después de finalizar las dos licenciaturas en marzo de 2014, Cristián empezó su carrera en el Barcelona Supercomputing Center como Estudiante Residente en el grupo de Grid. En marzo de 2016 se cambió al grupo de Workflows and Distributed Computing (WDC) como Desarrollador Junior y, en mayo de 2017, obtuvo una beca del Ministerio Español para empezar los Estudios de Doctorado en colaboración con ese mismo grupo. Actualmente sigue trabajando en sus Estudios de Doctorado que espera defender públicamente en Diciembre de 2020.
 
