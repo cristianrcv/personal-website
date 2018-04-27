@@ -51,7 +51,9 @@ weight = 5
 
 # Biography
 
+<p align="justify">
 Cristián Ramón-Cortés Vilarrodona is a PhD Student for the <a href="http://www.ac.upc.edu/es" target="_blank">Computer Architecture Department (DAC - UPC)</a> working in collaboration with the <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/workflows-and-distributed-computing" target="_blank">Workflows and Distributed Computing group (WDC)</a> at the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a>. He is actively involved in the development of Frameworks for Analytic and HPC workflows; such as <a href="http://compss.bsc.es" target="_blank">COMP Superscalar (COMPSs)</a>.
-
+</p>
+<p align="justify">
 Back in March 2014, after finishing his BScs, Cristián started his career at the Barcelona Supercomputing Center (BSC) joining the Grid group as Resident Student. In March 2016, he moved to the Workflows and Distributed Computing group (WDC) as Junior developer and, in May 2017, he obtained a PhD Student grant from the Spanish Ministry to work in collaboration with the same group. Currently, he still works in his PhD, which will be publicly defended on December 2020.  
-
+</p>
