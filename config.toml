@@ -65,7 +65,7 @@ enableGitInfo = true
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "cristian.ramoncortes@bsc.es"
   address = "Building K2M Room 105. C/ Jordi Girona, 1-3, Barcelona, 08034, CATALONIA, SPAIN"
-  office_hours = "Email for appointment"
+  #office_hours = "Email for appointment"
   phone = "+34 93 413 72 48"
   skype = "cristian.rc.v"
   telegram = ""
@@ -323,7 +323,6 @@ enableGitInfo = true
   role = "Estudiante de Doctorado"
   organizations = [ { name = "Barcelona Supercomputing Center (BSC)", url = "https://www.bsc.es" }, { name = "Universidad Politécnica de Cataluña (UPC)", url = "https://www.upc.edu/es" } ]
   address = "Edificio K2M Sala 105. C/ Jordi Girona, 1-3, Barcelona, 08034, CATALUÑA, ESPAÑA"
-  office_hours = "Solicitar cita por e-mail"
 
 [[Languages.es.menu.main]]
   name = "Home"
@@ -366,7 +365,6 @@ enableGitInfo = true
   role = "Estudiant de Doctorat"
   organizations = [ { name = "Barcelona Supercomputing Center (BSC)", url = "https://www.bsc.es" }, { name = "Universitat Politècnica de Catalunya (UPC)", url = "https://www.upc.edu/es" } ]
   address = "Edifici K2M Sala 105. C/ Jordi Girona, 1-3, Barcelona, 08034, CATALUNYA, ESPANYA"
-  office_hours = "Sol·licitar cita per e-mail"
 
 [[Languages.ca.menu.main]]
   name = "Home"
@@ -409,7 +407,6 @@ enableGitInfo = true
   role = "Étudiant de Doctorat"
   organizations = [ { name = "Barcelona Supercomputing Center (BSC)", url = "https://www.bsc.es" }, { name = "Universitat Politècnica de Catalunya (UPC)", url = "https://www.upc.edu/es" } ]
   address = "Bâtiment K2M Salle 105. C/ Jordi Girona, 1-3, Barcelona, 08034, CATALOGNE, ESPAGNE"
-  office_hours = "Rendez vous par e-mail"
 
 [[Languages.fr.menu.main]]
   name = "Home"
