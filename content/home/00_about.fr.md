@@ -10,40 +10,40 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Computación de Altas Prestaciones (CAP)",
-    "Análisis Big Data (BD)",
-    "Computación Distribuida",
-    "Análisis en tiempo real y Tecnologías de Streaming"
+    "Calcul de Haute Performance",
+    "Análise de Big Data",
+    "Calcul Distribué",
+    "Techonologies de Data Streaming"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Estudiante de Doctorado en Arquitectura de Computadores"
-  institution = "Departamento de Arquitectura de Computadores (DAC - UPC) y Barcelona Supercomputing Center (BSC)"
+  course = "Étudiant de Doctorat pour le Département d'Architecture"
+  institution = "Département d'Architecture (DAC - UPC) y Barcelona Supercomputing Center (BSC)"
   year = 2021
 
 [[education.courses]]
-  course = "Master en Inovación e Investigación en Informática, Computación de Altas Prestaciones (MIRI - HPC)"
-  institution = "Universidad Politécnica de Cataluña (UPC)"
+  course = "Master en Innovation et Recherche en Informatique, Calcul de Haute Performance (MIRI - HPC)"
+  institution = "Université Polytechnique de Catalogne (UPC)"
   year = 2017
 
 [[education.courses]]
-  course = "Diploma de Doble Licenciatura"
-  institution = "Centro de Formación Interdisciplinaria Superior (CFIS - UPC)"
+  course = "Diplôme de Double BAC+5"
+  institution = "Centre de Formation Interdisciplinaire Supérieur (CFIS - UPC)"
   year = 2014
 
 [[education.courses]]
-  course = "Licenciatura en Ingeniería Informática"
-  institution = "Facultat de Informática de Barcelona (FIB - UPC)"
+  course = "Ingénieur Informatique (BAC+5)"
+  institution = "Faculté d'Informatique de Barcelone (FIB - UPC)"
   year = 2014
 
 [[education.courses]]
-  course = "Licenciatura en Ingeniría Industrial"
-  institution = "Escuela Técnica Superior de Ingeniería Industrial de Barcelona (ETSEIB - UPC)"
+  course = "Ingénieur Industriel (BAC+5)"
+  institution = "École Technique Supérieur de Génie Industriel de Barcelone (ETSEIB - UPC)"
   year = 2014
 
 [[education.courses]]
-  course = "Primariria, Educación Secundaria Obligatória y Bachillerato"
+  course = "Collège, Lycée et BAC"
   institution = "AULA Escola Europea"
   year = 2008
  
@@ -51,7 +51,6 @@ weight = 5
 
 # Biographie
 
-Cristián Ramón-Cortés Vilarrodona es un Estudiante de Doctorado para el <a href="http://www.ac.upc.edu/es" target="_blank">Departamento de Arquitectura de Computadores (DAC - UPC)</a>, en colaboración con el grupo de <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/workflows-and-distributed-computing" target="_blank">Workflows and Distributed Computing (WDC)</a> del <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a>. Desarrolla de forma activa herramientas para la ejecución distribuida de flujos de trabajo analíticos y de alta computación, por ejemplo <a href="http://compss.bsc.es" target="_blank">COMP Superscalar (COMPSs)</a>.
+Cristián Ramón-Cortés Vilarrodona est un Étudiant de Doctorat  pour le <a href="http://www.ac.upc.edu/es" target="_blank">Département d'Architecture (DAC - UPC)</a>, en collaboration avec le groupe de <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/workflows-and-distributed-computing" target="_blank">Workflows and Distributed Computing (WDC)</a> du <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a>. Il travaille activement sur le développement de systèmes d'exécution distribué pour des fluxes de travail analitiques et de haute performance, par exemple <a href="http://compss.bsc.es" target="_blank">COMP Superscalar (COMPSs)</a>.
 
-Después de finalizar las dos licenciaturas en marzo de 2014, Cristián empezó su carrera en el Barcelona Supercomputing Center como Estudiante Residente en el grupo de Grid. En marzo de 2016 se cambió al grupo de Workflows and Distributed Computing (WDC) como Desarrollador Junior y, en mayo de 2017, obtuvo una beca del Ministerio Español para empezar los Estudios de Doctorado en colaboración con ese mismo grupo. Actualmente sigue trabajando en sus Estudios de Doctorado que espera defender públicamente en Diciembre de 2020.
-
+Au mars 2014, Cristián a commencé à travailler au Barcelona Supercomputing Center comme Étudiant Résident dans le groupe de Grid. Au mars 2016 il est devenu Développeur Junior pour le groupe de Workflows and Distributed Computing (WDC) et, au mai 2017, il a obtenu une bourse du Ministère Espagnole pour commencer ses études de Doctorat en collaboration avec ce même groupe. À présent, il continue à travailler sur sa thèse qui doit être défendue publiquement au Desembre 2020.

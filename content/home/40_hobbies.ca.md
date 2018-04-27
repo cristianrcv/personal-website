@@ -20,5 +20,5 @@ Com a motorista prefereixo els passejos llargs i tranquils perquè no disfruto m
 
 <h2>Videojocs</h2>
 
-Principalment jugo al League Of Legends però també em diverteixen molts d'altres com ara Dota, Fornite, Counter Strike: GO, y Enemy Territory.
+Principalment jugo al League Of Legends però també em diverteixen molts d'altres com ara Dota, Fornite, Counter Strike: GO, i Enemy Territory.
 

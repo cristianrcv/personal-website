@@ -12,13 +12,13 @@ weight = 40
 
 +++
 
-Mes loisirs préférés sont les motos et les jeux vidéo, surtout selon la méteo :smiley:
+Mes loisirs préférés sont les motos et les jeux vidéo, selon la météo :smiley:
 
 <h2>Motos</h2>
 
-Je préfere les voyages longs et tranquils parce que je n'aime pas trop les circuits.
+Je préfère les voyages longs et tranquilles parce que je n'aime pas trop les circuits.
 
 <h2>Jeux Vidéo</h2>
 
-Principalement je jou au League Of Legends mais j'aime aussi d'autres jeux, par exemple Dota, Fornite, Counter Strike: GO, y Enemy Territory.
+Principalement je joue au League Of Legends mais j'aime aussi d'autres jeux comme par exemple Dota, Fornite, Counter Strike: GO et Enemy Territory.
 
