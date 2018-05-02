@@ -33,7 +33,7 @@ selected = true
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = []
+projects = ["2014-compss"]
 
 # Links (optional).
 url_pdf = "https://doi.org/10.1016/j.softx.2015.10.004"
