@@ -1,5 +1,5 @@
 +++
-title = "Transparent Orchestration of Task-based Parallel Applications in Containers Platforms"
+title = "Orchestration transparente sur des conteneurs d'applications parallèles basées en taches"
 date = 2017-12-21T00:00:00
 
 # Authors. Comma separated list

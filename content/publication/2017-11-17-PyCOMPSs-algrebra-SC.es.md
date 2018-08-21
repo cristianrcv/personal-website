@@ -1,5 +1,5 @@
 +++
-title = "Enabling Python to execute efficiently in heterogeneous distributed infrastructures with PyCOMPSs"
+title = "Ejecución eficiente en infrastructuras distribuidas heterogéneas con PyCOMPSs"
 date = 2017-11-17T00:00:00
 
 # Authors. Comma separated list
@@ -62,6 +62,8 @@ highlight = false
 image = "publications/pycompss-sc-cholesky.jpg"
 caption = "Cholesky Execution Graph"
 +++
+
+<h2>Palabras Clave</h2>
 
 <h2>Título Original</h2>
 Enabling Python to execute efficiently in heterogeneous distributed infrastructures with PyCOMPSs

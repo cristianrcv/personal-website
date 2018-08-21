@@ -62,3 +62,6 @@ highlight = false
 image = "publications/compss-logo.jpg"
 caption = "COMP Superscalar (COMPSs)"
 +++
+
+<h2>Keywords</h2>
+COMPSs, Distributed Computing

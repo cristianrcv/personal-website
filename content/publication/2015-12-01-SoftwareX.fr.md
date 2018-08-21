@@ -1,5 +1,5 @@
 +++
-title = "COMP Superscalar, an interoperable programming framework"
+title = "COMP Superscalar, un framework de programmation interoperable"
 date = 2015-12-01T00:00:00
 
 # Authors. Comma separated list
@@ -62,6 +62,12 @@ highlight = false
 image = "publications/compss-logo.jpg"
 caption = "COMP Superscalar (COMPSs)"
 +++
+
+<h2>Mots-Clés</h2>
+COMPSs, Distributed Computing
+
+<h2>Titre Original</h2>
+COMP Superscalar, an interoperable programming framework
 
 <h2>Résumé Original</h2>
 <p align="justify">

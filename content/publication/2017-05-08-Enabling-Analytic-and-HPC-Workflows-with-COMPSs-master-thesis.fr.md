@@ -1,5 +1,5 @@
 +++
-title = "Master Thesis: Enabling Analytic and HPC Workflows with COMPSs"
+title = "Master Thesis: Activation de flux de travaux Analytiques et de Haute Performance avec COMPSs"
 date = 2017-05-08T00:00:00
 
 # Authors. Comma separated list
