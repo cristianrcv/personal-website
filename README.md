@@ -23,13 +23,13 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/cristianrcv/personal-webpage/blob/master/LICENSE.md)
 
 
-Cristian Ramon-Cortes Vilarrodona Personal Webpage
+Cristian Ramon-Cortes Vilarrodona Personal Website
 =============================
 
 [Live Website](https://cristianrcv.netlify.com)
 
 
-A personal webpage using Academic, Hugo, and Netlify.
+A personal website using Academic, Hugo, and Netlify.
 
 Based on [Academic Kickstart](https://github.com/sourcethemes/academic-kickstart.git)
 
@@ -75,7 +75,7 @@ git commit -m "New version"
 git push origin master
 ```
 
-- Netlify triggers build on master commits so just check out the updated webpage
+- Netlify triggers build on master commits so just check out the updated website
 
 ## License
 
