@@ -3,7 +3,7 @@ title = "AutoParallel: A Python module for automatic parallelization and distrib
 date = 2018-11-06T00:00:00
 
 # Authors. Comma separated list
-authors = ["Cristian Ramon-Cortes Vilarrodona", "Ramon Amela", "Jorge Ejarque", "Rosa M. Badia", "Philippe Clauss"]
+authors = ["Cristian Ramon-Cortes Vilarrodona", "Ramon Amela", "Jorge Ejarque", "Philippe Clauss", "Rosa M. Badia"]
 
 # Publication type.
 # Legend:
