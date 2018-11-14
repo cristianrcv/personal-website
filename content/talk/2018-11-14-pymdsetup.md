@@ -40,8 +40,8 @@ caption = "Demo on the use of PyCOMPSs in PyMDSetup"
 
 <h2>Issued by</h2>
 
-SuperComputing 2018 - SC18
-Barcelona Supercomputing Center - Booth #2038
+<p>SuperComputing 2018 - SC18</p>
+<p>Barcelona Supercomputing Center - Booth #2038</p>
 
 <h2>Title</h2>
 

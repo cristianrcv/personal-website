@@ -38,14 +38,14 @@ caption = "AutoParallel presentation at PyHPC 18 - SC18 Workshop"
 
 +++
 
-<h2>Issued by</h2>
+<h2>Organització</h2>
 
 8th Workshop on Python for High-Performance and Scientific Computing
 
-<h2>Title</h2>
+<h2>Títol</h2>
 
 AutoParallel: Un mòdul de Python per parallelitzar automàticament bucles tancats imbricats i executar-los en entorns distribuïts
 
-<h2>Original Title</h2>
+<h2>Títol Original</h2>
 
 AutoParallel: A Python Module for Automatic Parallelization and Distributed Execution of Affine Loop Nests
