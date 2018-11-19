@@ -34,7 +34,7 @@ A personal website using Academic, Hugo, and Netlify.
 Based on [Academic Kickstart](https://github.com/sourcethemes/academic-kickstart.git)
 
 
-## Sytem Preparation
+## System Preparation
 
 Since all the builds are performed on the Netlify platform you don't really need to run any system setup.
 
