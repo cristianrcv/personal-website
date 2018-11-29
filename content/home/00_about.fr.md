@@ -62,3 +62,8 @@ Depuis 2011 jusqu'au 2013, il a travaillé comme professeur dans un cabinet de c
 <p align="justify">
 Pendant ses années au BSC il a contribué au développement de différents systèmes d'exécution distribué pour des fluxes de travail analiytiques et de haute performance, par exemple <a href="http://compss.bsc.es" target="_blank">COMPSs</a>, <a href="http://compss.bsc.es" target="_blank">PyCOMPSs</a> et <a href="https://www.bsc.es/research-and-development/software-and-apps/software-list/pmes" target="_blank">PMES</a>. Ses intérêts scientifiques se concentrent sur les modèles de programmation pour des systèmes d'exécution distribué qui travaillent avec des fluxes analytiques, en temps réel et de haute performance. 
 </p>
+
+
+## Curriculum Vitae                                                                                                                                    
+
+Vous pouvez télécharger le CVN <a href="https://cvn.fecyt.es/0000-0003-4170-818X" target="_blank">sur ce lien</a>.

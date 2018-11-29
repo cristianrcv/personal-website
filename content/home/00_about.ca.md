@@ -62,3 +62,9 @@ Des de 2011 fins a finals de 2013 va treballar com a professor en una assessoria
 <p align="justify">
 Durant la seva carrera al BSC ha contribuït en el disseny i el desenvolupament de diferents eines i models de programació per a la Computació d'Altes Prestacions en entorns distribuïts, com per exemple <a href="http://compss.bsc.es" target="_blank">COMPSs</a>, <a href="http://compss.bsc.es" target="_blank">PyCOMPSs</a> i <a href="https://www.bsc.es/research-and-development/software-and-apps/software-list/pmes" target="_blank">PMES</a>. Els seus interessos científics actuals són els models de programació per a entorns distribuïts que treballen amb fluxes de dades analítics, de temps real i de Computació d'Altes Prestacions.
 </p>
+
+
+## Currículum
+
+Podeu trobar el CVN <a href="https://cvn.fecyt.es/0000-0003-4170-818X" target="_blank">aquí</a>.
+

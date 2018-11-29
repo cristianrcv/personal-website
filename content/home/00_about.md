@@ -62,3 +62,9 @@ From 2011 to the end of 2013, he worked as a teacher in a study consultancy. In 
 <p align="justify">
 During his career at the BSC, he has contributed in the design and development of different tools and programming models for HPC in distributed platforms, such as <a href="http://compss.bsc.es" target="_blank">COMPSs</a>, <a href="http://compss.bsc.es" target="_blank">PyCOMPSs</a>, and <a href="https://www.bsc.es/research-and-development/software-and-apps/software-list/pmes" target="_blank">PMES</a>. His current research interests are focused on Programming Models and Frameworks for Analytic, Streaming, and HPC workflows in distributed computing platforms.
 </p>
+
+
+## Resume                                                                                                                                                                                                                                   
+
+An extended CV can be found <a href="https://cvn.fecyt.es/0000-0003-4170-818X" target="_blank">here</a>.
+
