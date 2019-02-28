@@ -1,7 +1,7 @@
 +++
 date = 2018-11-14T14:00:00  # Schedule page publish date.
 
-title = "Demo de l'ús de PyCOMPSs en PyMDSetup"
+title = "Demo del uso de PyCOMPSs en PyMDSetup"
 time_start = 2018-11-14T14:00:00
 time_end = 2018-11-14T14:30:00
 abstract = ""
@@ -20,7 +20,7 @@ projects = ["2014-compss"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "https://cristianrcv.netlify.com/img/talks/2018-11-14-SC18-pymdsetup-presentation.html"
 url_video = ""
 url_code = ""
 
@@ -33,20 +33,19 @@ highlight = false
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "talks/sc18_pymdsetup.jpg"
+image = "talks/2018-11-14-SC18-pymdsetup.jpg"
 caption = "Demo on the use of PyCOMPSs in PyMDSetup"
 
 +++
 
-<h2>Organització</h2>
+<h2>Organización</h2>
 
 <p>SuperComputing 2018 - SC18</p>
 <p>Barcelona Supercomputing Center - Booth #2038</p>  
 
-<h2>Títol</h2>
+<h2>Título</h2>
 
-Demo de l'ús de PyCOMPSs a PyMDSetup
+Demo del uso de PyCOMPSs en PyMDSetup
 
-<h2>Títol Original</h2>
+<h2>Título Original</h2>
 Demo on the use of PyCOMPSs in PyMDSetup
-

@@ -20,7 +20,7 @@ projects = ["2014-compss"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "https://cristianrcv.netlify.com/img/talks/2018-11-14-SC18-pymdsetup-presentation.html"
 url_video = ""
 url_code = ""
 
@@ -33,7 +33,7 @@ highlight = false
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "talks/sc18_pymdsetup.jpg"
+image = "talks/2018-11-14-SC18-pymdsetup.jpg"
 caption = "Demo on the use of PyCOMPSs in PyMDSetup"
 
 +++

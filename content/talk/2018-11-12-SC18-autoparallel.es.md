@@ -20,7 +20,7 @@ projects = ["2017-autoparallel", "2014-compss"]
 
 # Links (optional).
 url_pdf = "https://arxiv.org/pdf/1810.11268.pdf"
-url_slides = ""
+url_slides = "https://cristianrcv.netlify.com/img/talks/2018-11-12-SC18-autoparallel-presentation.pdf"
 url_video = ""
 url_code = ""
 
@@ -33,7 +33,7 @@ highlight = false
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "talks/pyhpc18_autoparallel.jpg"
+image = "talks/2018-11-12-SC18-autoparallel.jpg"
 caption = "AutoParallel presentation at PyHPC 18 - SC18 Workshop"
 
 +++
