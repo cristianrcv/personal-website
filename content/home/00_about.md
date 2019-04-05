@@ -23,22 +23,22 @@ weight = 5
   year = 2021
 
 [[education.courses]]
-  course = "Master in Innovation and Research in Informatics, High Performance Computing (MIRI - HPC)"
+  course = "MSc. in Innovation and Research in Informatics, High Performance Computing (MIRI - HPC)"
   institution = "Polytechnical University of Catalonia (UPC)"
   year = 2017
 
 [[education.courses]]
-  course = "Double BSc Diploma"
+  course = "Dual BSc. Diploma"
   institution = "Centre de Formació Interdisciplinaria Superior (CFIS - UPC)"
   year = 2014
 
 [[education.courses]]
-  course = "BSc in Computer Sciences Engineering"
+  course = "Engineering Degree (BSc. and MSc.) in Computer Science Engineering"
   institution = "Facultat d'Informatica de Barcelona (FIB - UPC)"
   year = 2014
 
 [[education.courses]]
-  course = "BSc in Industrial Engineering"
+  course = "Engineering Degree (BSc. and MSc.) in Industrial Engineering"
   institution = "Escola Tecnica Superior d'Enginyeria Industrial de Barcelona (ETSEIB - UPC)"
   year = 2014
 
@@ -52,7 +52,7 @@ weight = 5
 # Biography
 
 <p align="justify">
-Cristián Ramón-Cortés Vilarrodona is a PhD Student for the <a href="http://www.ac.upc.edu/es" target="_blank">Computer Architecture Department (DAC - UPC)</a> working in collaboration with the <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/workflows-and-distributed-computing" target="_blank">Workflows and Distributed Computing group (WDC)</a> at the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a>. He holds a MSc. on Research and Innovation in Informatics - High Performance Computing (<a href="https://masters.fib.upc.edu/masters/miri-high-performance-computing" target="_blank">MIRI - HPC</a>, 2017), an Engineering Degree on Computer Science (<a href="https://www.fib.upc.edu/" target="_blank">FIB</a>, 2014), an Engineering Degree on Industrial Engineering (<a href="https://etseib.upc.edu/ca" target="_blank">ETSEIB</a>, 2014), and a Double BSc. Diploma (<a href="https://cfis.upc.edu/" target="_blank">CFIS</a>, 2014), all of them from the <a href="https://www.upc.edu/" target="_blank">Technical University of Catalonia (UPC)</a>.
+Cristián Ramón-Cortés Vilarrodona is a PhD Student for the <a href="http://www.ac.upc.edu/es" target="_blank">Computer Architecture Department (DAC - UPC)</a> working in collaboration with the <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/workflows-and-distributed-computing" target="_blank">Workflows and Distributed Computing group (WDC)</a> at the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a>. He holds a MSc. on Research and Innovation in Informatics - High Performance Computing (<a href="https://masters.fib.upc.edu/masters/miri-high-performance-computing" target="_blank">MIRI - HPC</a>, 2017), an Engineering Degree (BSc. and MSc.) on Computer Science Engineering (<a href="https://www.fib.upc.edu/" target="_blank">FIB</a>, 2014), an Engineering Degree (BSc. and MSc.) on Industrial Engineering (<a href="https://etseib.upc.edu/ca" target="_blank">ETSEIB</a>, 2014), and a Dual BSc. Diploma (<a href="https://cfis.upc.edu/" target="_blank">CFIS</a>, 2014), all of them from the <a href="https://www.upc.edu/" target="_blank">Technical University of Catalonia (UPC)</a>.
 </p>
 
 <p align="justify">
