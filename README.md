@@ -11,7 +11,7 @@
 <!-- [![Maven Central](https://maven-badges.herokuapp.com/maven-central/XX)](https://maven-badges.herokuapp.com/maven-central/XX) -->
 
 <!-- Dependencies update status -->
-[![Dependency Status](https://www.versioneye.com/user/projects/5a1e79ae0fb24f7abcb1c5cd/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5a1e79ae0fb24f7abcb1c5cd)
+<!-- [![Dependency Status](https://www.versioneye.com/user/projects/5a1e79ae0fb24f7abcb1c5cd/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5a1e79ae0fb24f7abcb1c5cd) -->
 
 <!-- Java DOC status -->
 <!-- [![Javadocs](http://javadoc.io/badge/XX.svg)](http://javadoc.io/doc/XX) -->
