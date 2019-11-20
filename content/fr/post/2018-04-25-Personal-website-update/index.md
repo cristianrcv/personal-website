@@ -40,7 +40,7 @@ The previous template had many customization options but it was really difficult
 </p>
 
 <p align="justify">
-So... I decided to totally rebuild my personal website! This time I have used <a href="https://gohugo.io/" target="_blank">HUGO</a> and the <a href="https://themes.gohugo.io/theme/academic/" target="_blank">Academic</a> theme. I have kept the <a href="https://www.netlify.com/" target="_blank">Netlify</a> building because I love the continuous integration with the <a href="https://github.com/cristianrcv/personal-webpage" target="_blank">GitHub sources</a> and I find it really comfortable to deploy a website. So far, so happy :smiley:
+So... I decided to totally rebuild my personal website! This time I have used <a href="https://gohugo.io/" target="_blank">HUGO</a> and the <a href="https://themes.gohugo.io/theme/academic/" target="_blank">Academic</a> theme. I have kept the <a href="https://www.netlify.com/" target="_blank">Netlify</a> building because I love the continuous integration with the <a href="https://github.com/cristianrcv/personal-website" target="_blank">GitHub sources</a> and I find it really comfortable to deploy a website. So far, so happy :smiley:
 </p>
 
 <p align="justify">
