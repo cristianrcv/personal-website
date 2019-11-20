@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Cristian Ramon-Cortes Vilarrodona
+name: "Cristián Ramón-Cortés Vilarrodona"
 
 # Username (this should match the folder name)
 authors:
