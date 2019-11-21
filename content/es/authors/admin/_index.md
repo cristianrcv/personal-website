@@ -16,7 +16,7 @@ role: PhD Student
 organizations:
 - name: Barcelona Supercomputing Center
   url: "https://www.bsc.es/"
-- name: Polytechnical University of Catalonia (UPC)
+- name: Universidad Politécnica de Cataluña (UPC)
   url: "https://www.upc.edu/es"
 
 # Short bio (displayed in user profile at end of posts)
