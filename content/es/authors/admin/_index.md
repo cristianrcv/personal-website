@@ -75,7 +75,7 @@ social:
   link: https://stackoverflow.com/users/6018655/cristian-ramon-cortes
 - icon: cv
   icon_pack: ai
-  link: files/cv.pdf
+  link: https://cristianrcv.netlify.com/files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "cristian.ramoncortes@bsc.es"
