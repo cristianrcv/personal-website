@@ -21,6 +21,16 @@ date_format = "Jan 2006"
 [[item]]
   organization = ""
   organization_url = ""
+  title = "Bicicleta MTB/Enduro"
+  url = ""
+  certificate_url = ""
+  date_start = "2020-05-01"
+  date_end = ""
+  description = "Me gusta pasear tranquilamente (y no tan tranquilamente) por la montaña."
+
+[[item]]
+  organization = ""
+  organization_url = ""
   title = "Motocicletas"
   url = ""
   certificate_url = ""
@@ -36,6 +46,6 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2004-10-19"
   date_end = ""
-  description = "Actualmente juego principalmente a League of Legends pero también me gusta jugar al Fornite, al Counter Strike: GO, al Dota y al Enemy Territory."
+  description = "Dedico parte de mi tiempo libre a jugar a diversos juegos online y, de vez en cuando, abro stream."
 
 +++

@@ -21,12 +21,22 @@ date_format = "Jan 2006"
 [[item]]
   organization = ""
   organization_url = ""
+  title = "MountainBike/Enduro"
+  url = ""
+  certificate_url = ""
+  date_start = "2020-05-01"
+  date_end = ""
+  description = "I enjoy quite (and not so quiet) routes in the mountains"
+
+[[item]]
+  organization = ""
+  organization_url = ""
   title = "Motorbiking"
   url = ""
   certificate_url = ""
   date_start = "2006-10-19"
   date_end = ""
-  description = "I enjoy long and quiet routes as long as circuits."
+  description = "I enjoy quiet routes as long as circuits."
   
 [[item]]
   organization = ""
@@ -36,6 +46,6 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2004-10-19"
   date_end = ""
-  description = "At the moment, I mainly play League of Legends but I also like playing Fornite, Counter Strike: GO, Dota, and Enemy Territory."
+  description = "I spend part of my free-time to play many online games and, from time to time, I also stream."
 
 +++

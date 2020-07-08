@@ -21,6 +21,16 @@ date_format = "Jan 2006"
 [[item]]
   organization = ""
   organization_url = ""
+  title = "Bicicleta MTB/Enduro"
+  url = ""
+  certificate_url = ""
+  date_start = "2020-05-01"
+  date_end = ""
+  description = "M'agrada passejar tranquilament (i no tan tranquilament) per la muntanya."
+
+[[item]]
+  organization = ""
+  organization_url = ""
   title = "Motocicletes"
   url = ""
   certificate_url = ""
@@ -36,5 +46,5 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2004-10-19"
   date_end = ""
-  description = "Actualment jugo principalment a League of Legends però també m'agraden el Fornit, el Counter Strike: GO, el Dota i l'Enemy Territory."
+  description = "Dedico part del meu temps lliure a jugar a diversos jocs online i, de tant en tant, obro stream."
 +++
