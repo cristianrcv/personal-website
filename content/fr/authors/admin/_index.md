@@ -10,29 +10,30 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Student
+role: PhD
 
 # Organizations/Affiliations
 organizations:
-- name: Barcelona Supercomputing Center
-  url: "https://www.bsc.es/"
-- name: Université Polytechnique de Catalogne (UPC)
-  url: "https://www.upc.edu/es"
+- name: Dynatrace
+- url: http://dynatrace.es/
+#- name: Barcelona Supercomputing Center
+#  url: "https://www.bsc.es/"
+#- name: Polytechnical University of Catalonia (UPC)
+#  url: "https://www.upc.edu/es"
 
 # Short bio (displayed in user profile at end of posts)
-bio: "Cristián Ramón-Cortés Vilarrodona est un Étudiant de Doctorat pour le Département d'Architecture (DAC - UPC) en collaboration avec le groupe de Workflows and Distributed Computing (WDC) du Barcelona Supercomputing Center (BSC)."
+bio: "Dr. Cristián Ramón-Cortés Vilarrodona est un Senior Software Engineer pour Dynatrace." 
  
 interests:   
-- Modèles de programmation pour des fluxes de travaux
-- Fluxes de données et techonologies de Streaming
+- Fluxes de travaux et données
 - Calcul de Haute Performance
 - Análise de Big Data
 - Calcul Distribué
 
 education:
   courses:
-  - course: Étudiant de Doctorat pour le Département d'Architecture
-    institution: Département d'Architecture (DAC - UPC) y Barcelona Supercomputing Center (BSC)
+  - course: Doctorat en Sciences Informatiques
+    institution: Département d'Architecture (DAC - UPC) et Barcelona Supercomputing Center (BSC)
     year: 2020
   - course: Master en Innovation et Recherche en Informatique, Calcul de Haute Performance (MIRI - HPC)
     institution: Université Polytechnique de Catalogne (UPC)
@@ -78,7 +79,7 @@ social:
   link: https://cristianrcv.netlify.com/files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "cristian.ramoncortes@bsc.es"
+email: "cristianrcv@gmail.com"
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -88,11 +89,11 @@ user_groups:
 ---
 
 <p align="justify">
-Cristián Ramón-Cortés Vilarrodona est un Étudiant de Doctorat pour le <a href="http://www.ac.upc.edu/es" target="_blank">Département d'Architecture (DAC - UPC)</a> en collaboration avec le groupe de <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/workflows-and-distributed-computing" target="_blank">Workflows and Distributed Computing (WDC)</a> du <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a>. Il a un Master en Recherche et Innovation en Informatique - Computation de Haute Performance (<a href="https://masters.fib.upc.edu/masters/miri-high-performance-computing" target="_blank">MIRI - HPC</a>, 2017), un BAC+5 en Ingénierie Informatique (<a href="https://www.fib.upc.edu/" target="_blank">FIB</a>, 2014), un BAC+5 en Ingénierie Industrielle (<a href="https://etseib.upc.edu/ca" target="_blank">ETSEIB</a>, 2014), et un Diploma de Double Certification Universitaire (<a href="https://cfis.upc.edu/" target="_blank">CFIS</a>, 2014), tous par l'<a href="https://www.upc.edu/" target="_blank">Université Polytechnique de Catalogne (UPC)</a>.
+Cristián Ramón-Cortés Vilarrodona a un Doctorat en Sciences Informatiques (<a href="http://www.ac.upc.edu/es" target="_blank">DAC</a>, 2020), un Master en Recherche et Innovation en Informatique - Computation de Haute Performance (<a href="https://masters.fib.upc.edu/masters/miri-high-performance-computing" target="_blank">MIRI - HPC</a>, 2017), un BAC+5 en Ingénierie Informatique (<a href="https://www.fib.upc.edu/" target="_blank">FIB</a>, 2014), un BAC+5 en Ingénierie Industrielle (<a href="https://etseib.upc.edu/ca" target="_blank">ETSEIB</a>, 2014), et un Diploma de Double Certification Universitaire (<a href="https://cfis.upc.edu/" target="_blank">CFIS</a>, 2014), tous par l'<a href="https://www.upc.edu/" target="_blank">Université Polytechnique de Catalogne (UPC)</a>.
 </p>
 
 <p align="justify">
-Depuis 2011 jusqu'au 2013, il a travaillé comme professeur dans un cabinet de conseil d'études. Au 2014 il a commencé à travailler au Barcelona Supercomputing Center comme Étudiant Résident dans le groupe de Grid. Dès le début de 2016 jusqu'au Mai 2017 il a travaillé comme Développeur Junior pour le groupe de Workflows and Distributed Computing (WDC). À présent, il a une bourse pour faire ses études de doctorat en collaboration avec le même groupe du BSC.
+Depuis 2011 jusqu'au 2013, il a travaillé comme professeur dans un cabinet de conseil d'études. Au 2014 il a commencé à travailler au <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a> comme Étudiant Résident dans le groupe de Grid. Dès le début de 2016 jusqu'au Mai 2017 il a travaillé comme Développeur Junior pour le groupe de <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/workflows-and-distributed-computing" target="_blank">Workflows and Distributed Computing group (WDC)</a>. Jusqu'à Octobre 2020 il a eu une bourse pour faire ses études de doctorat en collaboration avec le même groupe du BSC.
 </p>
 
 <p align="justify">

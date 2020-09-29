@@ -18,12 +18,22 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Senior Software Engineer"
+  company = "Dynatrace"
+  company_url = "http://dynatrace.es"
+  location = "Spain"
+  date_start = "2020-10-13"
+  date_end = ""
+  description = """Senior Software Engineer at Dynatrace.
+  """
+  
+[[experience]]
   title = "PhD Student"
   company = "Barcelona Supercomputing Center (BSC)"
   company_url = "https://www.bsc.es"
   location = "Spain"
   date_start = "2017-05-01"
-  date_end = ""
+  date_end = "2020-10-09"
   description = """PhD Student for the Computer Architecture Department (DAC - UPC) working in collaboration with the Workflows and Distributed Computing group (WDC) at the Barcelona Supercomputing Center (BSC). The thesis was entitled: Programming Models to support Data Science Workflows.
   Responsibilities include:
   
