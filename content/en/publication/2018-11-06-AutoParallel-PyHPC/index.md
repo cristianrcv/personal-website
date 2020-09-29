@@ -34,7 +34,7 @@ tags:
 - automatic parallelisation
 - distributed computing
 
-featured: true
+featured: false
 
 #links:
 #- name: Custom Link
