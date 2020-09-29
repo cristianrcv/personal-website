@@ -88,7 +88,7 @@ edit_page = {repo_url = "https://github.com/cristianrcv/personal-website", repo_
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "cristianrcv@gmail.com"
-phone = "+34 687 86 06 12"
+phone = "Pre-scheduled calls only"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
