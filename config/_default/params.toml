@@ -87,19 +87,19 @@ edit_page = {repo_url = "https://github.com/cristianrcv/personal-website", repo_
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "cristian.ramoncortes@bsc.es"
-phone = "+34 93 413 72 48"
+email = "cristianrcv@gmail.com"
+phone = "+34 687 86 06 12"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Carrer Jordi Girona, 1-3", city = "Barcelona", region = "Catalonia", postcode = "08034", country = "Spain", country_code = "SP"}
+address = {street = "", city = "Barcelona", region = "Catalonia", postcode = "08034", country = "Spain", country_code = "SP"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
 coordinates = {latitude = "41.3886712", longitude = "2.1125342"}
 
 # Directions for visitors to locate you.
-directions = "Enter K2M Building and take the stairs to Office 105 on Floor 1"
+directions = ""
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -250,7 +250,7 @@ plugins_js  = []
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  engine = 1
+  engine = 0
   api_key = "AIzaSyCjl6XhjnEWaceHdO0TxDeidssvgLBOyMo"
   zoom = 15
 
