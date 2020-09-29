@@ -7,7 +7,7 @@ authors:
 - Philippe Clauss
 - Rosa M. Badia
 date: "2020-05-01T00:00:00Z"
-doi: ""
+doi: "10.1177/1094342020937050"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-07-01T00:00:00Z"
@@ -39,7 +39,7 @@ featured: true
 # - name: ""
 #   url: ""
 
-url_pdf: ''
+url_pdf: 'https://doi.org/10.1177/1094342020937050'
 url_code: ''
 url_dataset: ''
 url_poster: ''
