@@ -15,7 +15,7 @@ role: PhD
 # Organizations/Affiliations
 organizations:
 - name: Dynatrace
-- url: http://dynatrace.es/
+  url: http://dynatrace.es/
 #- name: Barcelona Supercomputing Center
 #  url: "https://www.bsc.es/"
 #- name: Polytechnical University of Catalonia (UPC)
