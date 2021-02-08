@@ -96,7 +96,7 @@ address = {street = "", city = "Barcelona", region = "Catalonia", postcode = "08
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "41.3886712", longitude = "2.1125342"}
+coordinates = {latitude = "41.40340", longitude = "2,18976"}
 
 # Directions for visitors to locate you.
 directions = ""
@@ -251,7 +251,7 @@ plugins_js  = []
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
   engine = 0
-  api_key = "AIzaSyCjl6XhjnEWaceHdO0TxDeidssvgLBOyMo"
+  api_key = "AIzaSyDyzLRJihAlPFAMgbufV6us956RYOg63Kg"
   zoom = 15
 
 ############################
