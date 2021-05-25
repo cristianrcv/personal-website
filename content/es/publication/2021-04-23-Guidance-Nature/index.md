@@ -23,23 +23,23 @@ authors:
 - Josep M. Mercader
 - David Torrents
 
-date: "2020-06-01T00:00:00Z"
-doi: ""
+date: "2021-04-23T00:00:00Z"
+doi: "10.1038/s41467-021-21952-4"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2020-06-01T00:00:00Z"
+publishDate: "2021-04-23T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "BioRxiv"
-publication_short: "BioRxiv"
+publication: "Nature Communications"
+publication_short: "NatureComm"
 
-abstract: "Genome-wide association studies (GWAS) are not fully comprehensive as current strategies typically test only the additive model, exclude the X chromosome, and use only one reference panel for genotype imputation. We implemented an extensive GWAS strategy, GUIDANCE, which improves genotype imputation by using multiple reference panels, includes the analysis of the X chromosome and non-additive models to test for association. We applied this methodology to 62,281 subjects across 22 age-related diseases and identified 94 genome-wide associated loci, including 26 previously unreported. We observed that 27.6% of the 94 loci would be missed if we only used standard imputation strategies and only tested the additive model. Among the new findings, we identified three novel low-frequency recessive variants with odds ratios larger than 4, which would need at least a three-fold larger sample size to be detected under the additive model. This study highlights the benefits of applying innovative strategies to better uncover the genetic architecture of complex diseases."
+abstract: "Genome-wide association studies (GWAS) are not fully comprehensive, as current strategies typically test only the additive model, exclude the X chromosome, and use only one reference panel for genotype imputation. We implement an extensive GWAS strategy, GUIDANCE, which improves genotype imputation by using multiple reference panels and includes the analysis of the X chromosome and non-additive models to test for association. We apply this methodology to 62,281 subjects across 22 age-related diseases and identify 94 genome-wide associated loci, including 26 previously unreported. Moreover, we observe that 27.7% of the 94 loci are missed if we use standard imputation strategies with a single reference panel, such as HRC, and only test the additive model. Among the new findings, we identify three novel low-frequency recessive variants with odds ratios larger than 4, which need at least a three-fold larger sample size to be detected under the additive model. This study highlights the benefits of applying innovative strategies to better uncover the genetic architecture of complex diseases."
 
 # Summary. An optional shortened abstract.
 summary: 
@@ -54,7 +54,7 @@ featured: true
 # - name: ""
 #   url: ""
 
-url_pdf: 'https://doi.org/10.1101/2020.05.12.084608'
+url_pdf: 'https://doi.org/10.1038/s41467-021-21952-4'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -86,3 +86,4 @@ slides: example
 ---
 
 <h2>Keywords</h2>
+GWAS, Guidance, COMPSs
