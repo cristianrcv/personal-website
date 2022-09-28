@@ -24,7 +24,10 @@ date_format = "Jan 2006"
   location = "Espanya"
   date_start = "2020-10-13"
   date_end = ""
-  description = """Senior Software Engineer a Dynatrace.
+  description = """
+  * Senior Software Engineer: Els meus esforços se centren a processar i agregar la informació referent a les sessions d'usuari, i en desenvolupar la nova generació d'emmagatzemament per l'anàlisi de comportament dels usuaris.
+  * Product Owner: Definir el full de ruta pel component, administrar el backlog, acordar prioritats amb els agents interessats i conduir sessions típiques de la metodologia àgil.
+  * Team Lead: Assistir i guiar al grup, realitzar sessions de 1on1, planificació de carrera, 360-feedback i revisions rendiment.
   """
 
 [[experience]]
@@ -80,8 +83,8 @@ date_format = "Jan 2006"
   location = "Espanya"
   date_start = "2011-09-01"
   date_end = "2013-12-01"
-  description = """Professor d'estudiants de llicenciatura i grau a l'Academia SOL. L'objectiu era donar classes de reforç als estudiants d'una forma més
-  senzilla i pròxima que els professors universitaris.
+  description = """Professor d'estudiants de llicenciatura i grau a l'Academia SOL. L'objectiu era donar classes de reforç
+  als estudiants d'una forma més senzilla i pròxima que els professors universitaris.
   Assignatures impartides:
   
   * ETSEIB: Transferència de Calor, Informàtica 1, Informàtica 2

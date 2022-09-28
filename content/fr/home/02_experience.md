@@ -24,7 +24,10 @@ date_format = "Jan 2006"
   location = "Espagne"
   date_start = "2020-10-13"
   date_end = ""
-  description = """Senior Software Engineer pour Dynatrace.
+  description = """
+  * Senior Software Engineer: Mes efforts se concentrent sur le traitement et l'agrégation des données de session pour une surveillance réelle des utilisateurs et sur le développement du stockage de nouvelle génération pour l'analyse du comportement.
+  * Product Owner: Définir la feuille de route du produit pour notre composant logiciel, maintenir le backlog, convenir des priorités avec les parties prenantes et animer nombreuses réunions agiles.
+  * Team Lead: fournir des conseils au groupe et mener des entretiens individuels, des plans de carrière, 360-feedbacks et des évaluations de performance.
   """
   
 [[experience]]
