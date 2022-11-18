@@ -31,15 +31,13 @@ date_format = "Jan 2006"
   """
   
 [[experience]]
-  title = "Estudiante de Doctorado"
+  title = "Software Engineer"
   company = "Barcelona Supercomputing Center (BSC)"
   company_url = "https://www.bsc.es"
   location = "España"
   date_start = "2017-05-01"
   date_end = "2020-10-09"
-  description = """Estudiante de Doctorado para el Departamento de Arquitectura de Computadores (DAC - UPC) en colaboración con el grupo
-  de Workflows and Distributed Computing (WDC) del Barcelona Supercomputing Center (BSC). La tesis se titulaba: Programming Models to support
-  Data Science Workflows.
+  description = """Software Engineer para el equipo de Workflows and Distributed Computing (WDC) del Barcelona Supercomputing Center (BSC) en colaboración con el Departamento de Arquitectura de Computadores (DAC - UPC).
   Mis responsabilidades incluían:
   
   * Orquestración de flujos de trabajo de Data Science
