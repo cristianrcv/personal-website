@@ -25,10 +25,10 @@ organizations:
 bio: "Dr. Cristián Ramón-Cortés Vilarrodona est un Senior Software Engineer pour Dynatrace." 
  
 interests:   
-- Fluxes de travaux et données
+- Communication et gestion des personnes
+- Calcul Distribué
 - Calcul de Haute Performance
 - Análise de Big Data
-- Calcul Distribué
 
 education:
   courses:

@@ -18,16 +18,16 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Senior Software Engineer"
+  title = "Team Lead, Product Owner, Senior Software Engineer"
   company = "Dynatrace"
   company_url = "http://dynatrace.es"
   location = "Spain"
   date_start = "2020-10-13"
   date_end = ""
   description = """
-  * Senior Software Engineer: My efforts are focused on processing and aggregating session data for real user monitoring, and developing the next generation storage for behavioural analysis.
-  * Product Owner: Define the product road-map for our component, maintain the backlog, agree priorities with stakeholders, and drive many agile meetings.
   * Team Lead: Provide guidance to the group and conduct 1on1's, career plans, 360-feedback, and performance reviews.
+  * Product Owner: Define the product road-map for our component, maintain the backlog, agree priorities with stakeholders, and drive many agile meetings.
+  * Senior Software Engineer: My efforts are focused on processing and aggregating session data for real user monitoring, and developing the next generation storage for behavioural analytics.
   """
   
 [[experience]]
