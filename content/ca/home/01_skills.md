@@ -15,28 +15,40 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "java"
-  icon_pack = "fab"
-  name = "Java"
-  description = ""
-  
-[[feature]]
-  icon = "python"
-  icon_pack = "fab"
-  name = "Python"
-  description = ""
+icon = "java"
+icon_pack = "fab"
+name = "Java"
+description = ""
 
 [[feature]]
-  icon = "file-code"
-  icon_pack = "fas"
-  name = "C++"
-  description = ""
+icon = "python"
+icon_pack = "fab"
+name = "Python"
+description = ""
 
 [[feature]]
-  icon = "laptop-code"
-  icon_pack = "fas"
-  name = "Bash"
-  description = ""
+icon = "react"
+icon_pack = "fab"
+name = "React"
+description = ""
+
+[[feature]]
+icon = "java"
+icon_pack = "fab"
+name = "Kotlin"
+description = ""
+
+[[feature]]
+icon = "file-code"
+icon_pack = "fas"
+name = "C++"
+description = ""
+
+[[feature]]
+icon = "laptop-code"
+icon_pack = "fas"
+name = "Bash"
+description = ""
 
 #[[feature]]
 #  icon = "chart-line"
@@ -51,16 +63,40 @@ subtitle = ""
 #  description = ""
 
 [[feature]]
-  icon = "cogs"
-  icon_pack = "fas"
-  name = "Maven"
-  description = ""
+icon = "docker"
+icon_pack = "fab"
+name = "Docker"
+description = ""
 
 [[feature]]
-  icon = "users-cog"
-  icon_pack = "fas"
-  name = "Jenkins"
-  description = ""
+icon = "cogs"
+icon_pack = "fas"
+name = "Helm"
+description = ""
+
+[[feature]]
+icon = "cogs"
+icon_pack = "fas"
+name = "Gradle"
+description = ""
+
+[[feature]]
+icon = "cogs"
+icon_pack = "fas"
+name = "Maven"
+description = ""
+
+[[feature]]
+icon = "users-cog"
+icon_pack = "fas"
+name = "ArgoCD"
+description = ""
+
+[[feature]]
+icon = "jenkins"
+icon_pack = "fab"
+name = "Jenkins"
+description = ""
 
 #[[feature]]
 #  icon = "chart-line"
@@ -75,24 +111,15 @@ subtitle = ""
 #  description = ""
 
 [[feature]]
-  icon = "code-branch"
-  icon_pack = "fas"
-  name = "GIT"
-  description = ""
+icon = "code-branch"
+icon_pack = "fas"
+name = "GIT"
+description = ""
 
 [[feature]]
-  icon = "code-branch"
-  icon_pack = "fas"
-  name = "SVN"
-  description = ""
-  
-[[feature]]
-  icon = "feather-alt"
-  icon_pack = "fas"
-  name = "Apache Projects"
-  description = "" 
+icon = "jira"
+icon_pack = "fab"
+name = "JIRA"
+description = ""
 
 +++
-
-
-
