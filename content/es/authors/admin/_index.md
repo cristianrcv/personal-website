@@ -15,14 +15,14 @@ role: PhD
 # Organizations/Affiliations
 organizations:
 - name: Dynatrace
-  url: http://dynatrace.es/
+  url: http://dynatrace.com/
 #- name: Barcelona Supercomputing Center
 #  url: "https://www.bsc.es/"
 #- name: Polytechnical University of Catalonia (UPC)
 #  url: "https://www.upc.edu/es"
 
 # Short bio (displayed in user profile at end of posts)
-bio: "Dr. Cristián Ramón-Cortés Vilarrodona trebaja en Dynatrace como Senior Software Engineer."
+bio: "Dr. Cristián Ramón-Cortés Vilarrodona trabaja en Dynatrace como Team Lead."
 
 interests:
 - Comunicación y gestión de personas
@@ -93,9 +93,13 @@ Cristián Ramón-Cortés Vilarrodona tiene un Doctorado en Ciéncias de la Compu
 </p>
 
 <p align="justify">
-Desde el 2011 hasta finales de 2013 trabajó como profesor en una asesoria de estudios. En 2014 se unió al grupo de Grid Computing del <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a> como Estudiante Residente. Desde principios del 2016 hasta mayo de 2017, trabajó como Desarrollador Junior en el grupo de <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/workflows-and-distributed-computing" target="_blank">Workflows and Distributed Computing group (WDC)</a>. Desde mayo de 2017 hasta octubre de 2020 obtuvo una beca del Ministerio de Educación para realizar los estudios de doctorado en colaboración con el mismo grupo del BSC. 
+Desde el 2011 hasta 2013, trabajó como profesor en una asesoria de estudios. En 2014 se unió al grupo de Grid Computing del <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a> como Estudiante Residente. Entre 2016 y mayo de 2017, trabajó como Desarrollador Junior en el grupo de <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/workflows-and-distributed-computing" target="_blank">Workflows and Distributed Computing group (WDC)</a>. Desde mayo de 2017 hasta octubre de 2020 obtuvo una beca del Ministerio de Educación para realizar los estudios de doctorado en colaboración con el mismo grupo del BSC. 
 </p>
 
 <p align="justify">
 Durante su carrera en el BSC ha contribuido en el diseño y el desarrollo de diferentes herramientas y modelos de programación para la Computación de Altas Prestaciones en entornos distribuidos, como por ejemplo <a href="http://compss.bsc.es" target="_blank">COMPSs</a>, <a href="http://compss.bsc.es" target="_blank">PyCOMPSs</a> y <a href="https://www.bsc.es/research-and-development/software-and-apps/software-list/pmes" target="_blank">PMES</a>. Sus intereses científicos actuales son los modelos de programación para entornos distribuidos que trabajan con flujos de datos analíticos, de tiempo real y de Computación de Altas Prestaciones. 
+</p>
+
+<p align="justify">
+En octubre de 2020 Cristián se incorporó a <a href="https://dynatrace.com/" target="_blank">Dynatrace</a> para trabajar en observabilidad, focalizándose en el desarrollo de la nueva generación de almacenamiento para el análisis del comportamiento de los usuarios. Asimismo, Dynatrace le ha brindado la oportunidad de perseguir su verdadera pasión a través de la combinación de la gestión de personas y la entrega de producto.
 </p>

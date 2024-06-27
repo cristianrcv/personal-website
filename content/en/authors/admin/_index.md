@@ -15,14 +15,14 @@ role: PhD
 # Organizations/Affiliations
 organizations:
 - name: Dynatrace
-  url: http://dynatrace.es/
+  url: http://dynatrace.com/
 #- name: Barcelona Supercomputing Center
 #  url: "https://www.bsc.es/"
 #- name: Polytechnical University of Catalonia (UPC)
 #  url: "https://www.upc.edu/es"
 
 # Short bio (displayed in user profile at end of posts)
-bio: "Dr. Cristián Ramón-Cortés Vilarrodona works as a Senior Software Engineer at Dynatrace."
+bio: "Dr. Cristián Ramón-Cortés Vilarrodona works as a Team Lead at Dynatrace."
 
 interests:
 - Communication & People Management
@@ -91,13 +91,17 @@ user_groups:
 
 
 <p align="justify">
-Cristián Ramón-Cortés Vilarrodona holds a PhD on Computer Sciences (<a href="http://www.ac.upc.edu/es" target="_blank">DAC</a>, 2020), a MSc. on Research and Innovation in Informatics - High Performance Computing (<a href="https://masters.fib.upc.edu/masters/miri-high-performance-computing" target="_blank">MIRI - HPC</a>, 2017), an Engineering Degree (BSc. and MSc.) on Computer Science Engineering (<a href="https://www.fib.upc.edu/" target="_blank">FIB</a>, 2014), an Engineering Degree (BSc. and MSc.) on Industrial Engineering (<a href="https://etseib.upc.edu/ca" target="_blank">ETSEIB</a>, 2014), and a Dual BSc. Diploma (<a href="https://cfis.upc.edu/" target="_blank">CFIS</a>, 2014), all of them from the <a href="https://www.upc.edu/" target="_blank">Technical University of Catalonia (UPC)</a>.
+Cristián Ramón-Cortés Vilarrodona holds a PhD on Computer Sciences (<a href="http://www.ac.upc.edu/es" target="_blank">DAC</a>, 2020), an MSc. on Research and Innovation in Informatics - High Performance Computing (<a href="https://masters.fib.upc.edu/masters/miri-high-performance-computing" target="_blank">MIRI - HPC</a>, 2017), an Engineering Degree (BSc. and MSc.) on Computer Science Engineering (<a href="https://www.fib.upc.edu/" target="_blank">FIB</a>, 2014), an Engineering Degree (BSc. and MSc.) on Industrial Engineering (<a href="https://etseib.upc.edu/ca" target="_blank">ETSEIB</a>, 2014), and a Dual BSc. Diploma (<a href="https://cfis.upc.edu/" target="_blank">CFIS</a>, 2014), all of them from the <a href="https://www.upc.edu/" target="_blank">Technical University of Catalonia (UPC)</a>.
 </p>
 
 <p align="justify">
-From 2011 to the end of 2013, he worked as a teacher in a study consultancy. In 2014 he joined the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a> as a Resident Student for the Grid Computing group. Since the beginning of 2016 to May 2017, he worked as a Junior Developer for the <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/workflows-and-distributed-computing" target="_blank">Workflows and Distributed Computing group (WDC)</a>. From May 2017 until October 2020 he received a PhD Student grant from the Spanish Ministry to work in collaboration with the same group.
+From 2011 to 2013, he worked as a teacher in a study consultancy. In 2014, he joined the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a> as a Resident Student for the Grid Computing group. Between 2016 and May 2017, he served as a Junior Developer for the <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/workflows-and-distributed-computing" target="_blank">Workflows and Distributed Computing group (WDC)</a>. From May 2017 until October 2020, he received a PhD Student grant from the Spanish Ministry to collaborate with the same group.
 </p>
 
 <p align="justify">
-During his career at the BSC, he has contributed in the design and development of different tools and programming models for HPC in distributed platforms, such as <a href="http://compss.bsc.es" target="_blank">COMPSs</a>, <a href="http://compss.bsc.es" target="_blank">PyCOMPSs</a>, and <a href="https://www.bsc.es/research-and-development/software-and-apps/software-list/pmes" target="_blank">PMES</a>. His current research interests are focused on Programming Models and Frameworks for Analytic, Streaming, and HPC workflows in distributed computing platforms.
+During his tenure at the BSC, Cristián contributed to the design and development of various tools and programming models for HPC in distributed platforms, including <a href="http://compss.bsc.es" target="_blank">COMPSs</a>, <a href="http://compss.bsc.es" target="_blank">PyCOMPSs</a>, and <a href="https://www.bsc.es/research-and-development/software-and-apps/software-list/pmes" target="_blank">PMES</a>. His current research interests resolve around Programming Models and Frameworks for Analytic, Streaming, and HPC workflows in distributed computing platforms.
+</p>
+
+<p align="justify">
+In October 2020, Cristián joined <a href="https://dynatrace.com/" target="_blank">Dynatrace</a> to work in observability, focusing on developing the next-generation storage for behavioural analytics. Additionally, Dynatrace provided him with the opportunity to pursue his true passion through a combination of people management and product delivery.
 </p>
