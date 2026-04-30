@@ -1,0 +1,83 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+import { getCollection } from "astro:content";
+import createSlug from "../lib/createSlug"
+
+const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const last_posts = posts.slice(0, 3);
+---
+
+<BaseLayout sideBarActiveItemID="home">
+  <div class="pb-12 mt-5">
+    <div class="text-xl py-1">Hello there!</div>
+    <div class="text-5xl font-bold">I'm Cristian Ramon-Cortes</div>
+    <div class="text-3xl py-3 font-bold">Senior Manager at Seqera &bull; PhD in Computer Sciences</div>
+    <div class="py-2">
+      <text class="text-lg">
+        Engineer at heart, leader by calling. I hold a PhD on Computer Sciences from the Technical University of Catalonia (UPC)
+        and the Barcelona Supercomputing Center (BSC), where I contributed to programming models and frameworks for HPC,
+        Big Data, and Data Science workflows — including <b>COMPSs</b>, <b>PyCOMPSs</b>, and <b>AutoParallel</b>.
+      </text>
+    </div>
+    <div class="py-2">
+      <text class="text-lg">
+        After six years at BSC, I joined <b>Dynatrace</b> where I grew from Senior Software Engineer to Team Lead,
+        building next-generation storage for behavioural analytics. Since 2024, I have been at <b>Seqera</b>,
+        leading engineering teams focused on scientific workflow orchestration.
+      </text>
+    </div>
+    <div class="mt-8">
+      <a class="btn" href="https://es.linkedin.com/in/cristian-ramon-cortes" target="_blank">Connect on LinkedIn</a>
+      <a href="/cv" class="btn btn-outline ml-5">View CV</a>
+    </div>
+  </div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-2">Featured Projects</div>
+  </div>
+
+  <HorizontalCard
+    title="COMP Superscalar (COMPSs)"
+    img="/post_img.webp"
+    desc="A framework to ease the development and execution of parallel applications for distributed infrastructures, including HPC clusters, clouds, and grids."
+    url="http://compss.bsc.es"
+    badge="HPC"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="AutoParallel"
+    img="/post_img.webp"
+    desc="A Python module for automatic parallelization of affine loop nests, enabling distributed execution via PyCOMPSs with minimal programmer effort."
+    url="https://github.com/cristianrcv/pycompss-autoparallel"
+    badge="Research"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Distributed Stream Library"
+    img="/post_img.webp"
+    desc="A library enabling hybrid task-based workflows and dataflows, supporting continuous data streams in both Python and Java."
+    url="https://github.com/bsc-wdc/distro-stream-lib"
+  />
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
+  </div>
+
+  {
+    last_posts.map((post) => (
+      <>
+        <HorizontalCard
+          title={post.data.title}
+          img={post.data.heroImage}
+          desc={post.data.description}
+          url={"/blog/" + createSlug(post.data.title, post.slug)}
+          target="_self"
+          badge={post.data.badge}
+        />
+        <div class="divider my-0" />
+      </>
+    ))
+  }
+</BaseLayout>

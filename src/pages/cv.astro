@@ -1,0 +1,130 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="CV" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Cristian Ramon-Cortes Vilarrodona is a Senior Manager at Seqera with a PhD in Computer Sciences from the Technical
+    University of Catalonia (UPC) and the Barcelona Supercomputing Center (BSC). He holds dual engineering degrees in
+    Computer Science and Industrial Engineering, plus an MSc in High-Performance Computing. His research focused on
+    programming models and frameworks for distributed HPC, Big Data, and Data Science workflows, contributing to
+    COMPSs, PyCOMPSs, and AutoParallel. After six years at BSC, he joined Dynatrace where he progressed from Senior
+    Software Engineer to Team Lead before moving to Seqera in 2024, where he leads engineering teams working on
+    scientific workflow orchestration.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Senior Manager at Seqera"
+      subtitle="Oct 2025 – Present | Seqera, Remote"
+    >
+      Leading engineering management across multiple teams focused on scientific workflow orchestration and cloud-native bioinformatics infrastructure.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Technical Lead at Seqera"
+      subtitle="Feb 2025 – Oct 2025 | Seqera, Remote"
+    >
+      Served as technical lead driving architecture decisions and cross-team alignment for Seqera's core platform.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Senior Software Engineer at Seqera"
+      subtitle="Nov 2024 – Feb 2025 | Seqera, Remote"
+    >
+      Contributed as a senior engineer to Seqera's workflow management platform, working on scalability and reliability improvements.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Team Lead at Dynatrace"
+      subtitle="Jun 2022 – Nov 2024 | Dynatrace, Barcelona, Spain"
+    >
+      Led an engineering team building next-generation storage and analytics for behavioural data at scale, combining people management with hands-on product delivery.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Senior Software Engineer at Dynatrace"
+      subtitle="Oct 2020 – Jun 2022 | Dynatrace, Barcelona, Spain"
+    >
+      Developed high-performance storage and processing solutions for behavioural analytics in observability infrastructure. Promoted to Team Lead within two years.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Software Engineer (PhD Student) at BSC"
+      subtitle="May 2017 – Oct 2020 | Barcelona Supercomputing Center, Barcelona, Spain"
+    >
+      Received a Spanish Ministry PhD grant to work in the Workflows and Distributed Computing (WDC) group. Contributed to COMPSs, PyCOMPSs, and developed the AutoParallel module and the Distributed Stream Library as part of his doctoral research.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Junior Developer at BSC"
+      subtitle="Feb 2016 – May 2017 | Barcelona Supercomputing Center, Barcelona, Spain"
+    >
+      Developed and maintained features for the COMPSs and PyCOMPSs frameworks within the Workflows and Distributed Computing group.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Resident Student at BSC"
+      subtitle="Apr 2014 – Feb 2016 | Barcelona Supercomputing Center, Barcelona, Spain"
+    >
+      Joined BSC as a Resident Student for the Grid Computing group, gaining hands-on experience with distributed computing platforms and scientific software.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Teacher at Academia SOL"
+      subtitle="Sep 2011 – Dec 2013 | Academia SOL, Barcelona, Spain"
+    >
+      Taught mathematics, physics, and science subjects to secondary and high-school students in a study consultancy.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="PhD in Computer Sciences"
+      subtitle="2017 – 2020 | Computer Architecture Department (DAC/UPC) & Barcelona Supercomputing Center (BSC), Barcelona, Spain"
+    >
+      Thesis: "Programming Models to support Data Science Workflows". Grade: Excellent Cum Laude. Supervised by Rosa M. Badia and Jorge Ejarque.
+    </TimeLineElement>
+    <TimeLineElement
+      title="MSc in Innovation and Research in Informatics — High Performance Computing (MIRI-HPC)"
+      subtitle="2015 – 2017 | Polytechnical University of Catalonia (UPC), Barcelona, Spain"
+    />
+    <TimeLineElement
+      title="Dual BSc. Diploma"
+      subtitle="2008 – 2014 | Centre de Formació Interdisciplinaria Superior (CFIS/UPC), Barcelona, Spain"
+    />
+    <TimeLineElement
+      title="Engineering Degree in Computer Science (BSc. and MSc.)"
+      subtitle="2008 – 2014 | Facultat d'Informatica de Barcelona (FIB/UPC), Barcelona, Spain"
+    />
+    <TimeLineElement
+      title="Engineering Degree in Industrial Engineering (BSc. and MSc.)"
+      subtitle="2008 – 2014 | Escola Tecnica Superior d'Enginyeria Industrial de Barcelona (ETSEIB/UPC), Barcelona, Spain"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6 mb-10">
+    <li>Java</li>
+    <li>Python</li>
+    <li>Kotlin</li>
+    <li>Groovy</li>
+    <li>Angular</li>
+    <li>React</li>
+    <li>Bash</li>
+    <li>Docker</li>
+    <li>Kubernetes</li>
+    <li>Helm</li>
+    <li>ArgoCD</li>
+    <li>Git</li>
+    <li>JIRA</li>
+  </ul>
+</BaseLayout>
