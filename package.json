@@ -1,6 +1,6 @@
 {
-  "name": "astrofy",
-  "description": "Astrofy is a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS. Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed.",
+  "name": "personal-website",
+  "description": "Cristian Ramon-Cortes personal website built with Astro and TailwindCSS.",
   "type": "module",
   "version": "3.0.0",
   "private": true,
