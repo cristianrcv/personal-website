@@ -1,110 +1,289 @@
-<!-- Build Status -->
-[![Netlify Status](https://api.netlify.com/api/v1/badges/eb9743e0-12bd-41ac-b8e9-0ffb7132265f/deploy-status)](https://app.netlify.com/sites/cristianrcv/deploys)  
+# Astrofy | Personal Portfolio Website Template
 
-<!-- Code status -->
-[![Code Status](https://api.codacy.com/project/badge/Grade/cb48abdc642a4c159705ae77188fbf5a)](https://www.codacy.com/app/cristianrcv/personal-website?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cristianrcv/personal-website&amp;utm_campaign=Badge_Grade)
+![Astrofy | Personal Porfolio Website Template](public/social_img.webp)
 
-<!-- Main Repository language -->
-[![Language](https://img.shields.io/badge/language-Shell-yellowgreen.svg)](https://img.shields.io/badge/language-JavaScript-brightgreen.svg)
+Astrofy is a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS. Create in minutes a website with a Blog, CV, Project Section, Store, and RSS Feed.
 
-<!-- Repository License -->
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/cristianrcv/personal-website/blob/master/LICENSE.md)
+## Demo
 
+View a live demo of [Astrofy](https://astrofy-template.netlify.app/)
 
-Cristian Ramon-Cortes Vilarrodona Personal Website
-=============================
+## Installation
 
-[Live Website](https://cristianrcv.netlify.com)
+Run the following command in your terminal
 
-
-A personal website using Academic, Hugo, and Netlify.
-
-Based on [Academic Kickstart](https://github.com/sourcethemes/academic-kickstart.git)
-
-
-# System Preparation
-
-Since all the builds are performed on the Netlify platform you don't really need to run any system setup.
-
-However, for local builds/test you will require to:
-
-**Download and Install HUGO**
-
-The steps for the HUGO installation depend on your system so please follow the instructions available in the [HUGO website](https://gohugo.io/getting-started/installing/).
-
-
-# Template customization
-
-
-- config/ : General website configuration
-- content/lang
-    - authors : One entry per author
-    - home : One entry per section on the main page
-    - post : One entry per post
-    - project : One entry per project
-    - publication : One entry per publication
-    - talk : One entry per talk
-
-Multiple languages are supported by adding the content to different lang folders.
-
-
-# Building
-
-```shell
-hugo server --watch
-firefox http://localhost:1313
+```bash
+pnpm install
 ```
 
-# Deploying to Netlify
+Once the packages are installed you are ready to run astro. Astro comes with a built-in development server that has everything you need for project development. The astro dev command will start the local development server so that you can see your new website in action for the very first time.
 
-- Commit all changes
-```shell
-git add .
-git commit -m "New version"
-git push origin master
+```bash
+pnpm run dev
 ```
 
-- Netlify triggers build on master commits so just check out the updated website
+## Tech Stack
+
+- [Astro](https://astro.build)
+- [tailwindcss](https://tailwindcss.com/)
+- [DaisyUI](https://daisyui.com/)
+
+## Project Structure
+
+```php
+├── src/
+│   ├── components/
+│   │   ├── cv/
+│   │   │   ├── TimeLine
+│   │   ├── BaseHead.astro
+│   │   ├── Card.astro
+│   │   ├── Footer.astro
+│   │   ├── Header.astro
+│   │   └── HorizontalCard.astro
+│   │   └── SideBar.astro
+│   │   └── SideBarMenu.astro
+│   │   └── SideBarFooter.astro
+│   ├── content/
+│   │   ├── blog/
+│   │   │   ├── post1.md
+│   │   │   ├── post2.md
+│   │   │   └── post3.md
+│   │   ├── store/
+│   │   │   ├── item1.md
+│   │   │   ├── item2.md
+│   ├── layouts/
+│   │   └── BaseLayout.astro
+│   │   └── PostLayout.astro
+│   └── pages/
+│   │   ├── blog/
+│   │   │   ├── [...page].astro
+│   │   │   ├── [slug].astro
+│   │   └── cv.astro
+│   │   └── index.astro
+│   │   └── projects.astro
+│   │   └── rss.xml.js
+│   ├── styles/
+│   │   └── global.css
+│   └── config.ts
+├── public/
+│   ├── favicon.svg
+│   └── profile.webp
+│   └── social_img.webp
+├── astro.config.mjs
+├── tailwind.config.cjs
+├── package.json
+└── tsconfig.json
+```
+
+### Site config
+
+You can change global site configuration on '/src/config.ts' file:
+
+- **SITE_TITLE**: Default pages title.
+- **SITE_DESCRIPTION**: Default pages title.
+- **GENERATE_SLUG_FROM_TITLE**: By default Astrofy will generate the blog slug pages base on the article name. Set this var to false if you want to use the Astro file base (Compatible with Astrofy older versions).
+- **TRANSITION_API**: Enable and disable transition API
+
+### Components usage
+
+#### Layout Components
+
+The `BaseHead`, `Footer`, `Header`, and `SideBar` components are already included in the layout system. To change the website content you can edit the content of these components.
+
+##### SideBar
+
+In the Sidebar you can change your profilePicture, links to all your website pages, and your social icons.
+
+You can change your avatar shape using [mask classes](https://daisyui.com/components/mask/).
+
+The used social-icons are SVG form [BoxIcons](https://boxicons.com/) pack. You can replace the icons in the `SideBarFooter` component
+
+To add a new page in the sidebar go to the `SideBarMenu` component.
+
+```
+<li><a class="py-3 text-base" id="home" href="/">Home</a></li>
+
+```
+
+**Note**: In order to change the sidebar menu's active item, you need to setup the prop `sideBarActiveItemID` in the `BaseLayout` component of your new page and add that id to the link in the `SideBarMenu`
+
+#### TimeLine
+
+The timeline components are used to confirm the CV.
+
+```html
+<div class="time-line-container">
+  <TimeLineElement title="Element Title" subtitle="Subtitle">
+    Content that can contain
+    <div>divs</div>
+    and <span>anything else you want</span>.
+  </TimeLineElement>
+  ...
+</div>
+```
+
+#### Card & HorizontalCard
+
+The cards are primarly used for the Project and the Blog components. They include a picture, a title, and a description. 
+
+```html
+<HorizontalCard title="Card Title" img="imge_url" desc="Description" url="Link
+URL" target="Optional link target (_blank default)" badge="Optional badge"
+tags={['Array','of','tags']} />
+```
+
+#### HorizontalCard Shop Item
 
 
-# [Academic Kickstart](https://sourcethemes.com/academic/)
+This component is already included in the Store layout of the template. In case you want to use it in another place these are the props.
 
-**Academic** makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).
+```html
+<HorizontalShopItem
+  title="Item Title"
+  img="imge_url"
+  desc="Item description"
+  pricing="current_price"
+  oldPricing="old_price"
+  checkoutUrl="external store checkout url"
+  badge="Optional badge"
+  url="item details url"
+  custom_link="Custom link url"
+  custom_link_label="Cutom link btn label"
+  target="Optional link target (_self default)"
+/>
+```
 
-**Academic Kickstart** provides a minimal template to kickstart your new website.
+#### Adding a Custom Component
 
-- [**Get Started**](#install)
-- [View the documentation](https://sourcethemes.com/academic/docs/)
-- [Ask a question](http://discuss.gohugo.io/)
-- [Request a feature or report a bug](https://github.com/gcushen/hugo-academic/issues)
-- Updating? View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
-- Support development of Academic:
-  - [Donate a coffee](https://paypal.me/cushen)
-  - [Become a backer on Patreon](https://www.patreon.com/cushen)
-  - [Decorate your laptop or journal with an Academic sticker](https://www.redbubble.com/people/neutreno/works/34387919-academic)
-  - [Wear the T-shirt](https://academic.threadless.com/)
+To add a custom component, you can create a .astro file in the components folder under the source folder. 
 
-[![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
+Components must follow this template. The ```---``` represents the code fence and uses Javascript and can be used for imports. 
 
-## Install
+The HTML component is the actual style of your new component. 
 
-You can choose from one of the following four methods to install:
+```html
+---
+// Component Script (JavaScript)
+---
+<!-- Component Template (HTML + JS Expressions) -->
+```
 
-* [**one-click install using your web browser (recommended)**](https://sourcethemes.com/academic/docs/install/#install-with-web-browser)
-* [install on your computer using **Git** with the Command Prompt/Terminal app](https://sourcethemes.com/academic/docs/install/#install-with-git)
-* [install on your computer by downloading the **ZIP files**](https://sourcethemes.com/academic/docs/install/#install-with-zip)
-* [install on your computer with **RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
+For more details, see the [astro components](https://docs.astro.build/en/core-concepts/astro-components/) documentation here. 
 
-Then [personalize your new site](https://sourcethemes.com/academic/docs/get-started/).
+### Layouts
 
-## Ecosystem
+Include `BaseLayout` in each page you add and `PostLayout` to your post pages.
 
-* **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
-* **[Academic Scripts](https://github.com/sourcethemes/academic-scripts):** Scripts to help migrate content to new versions of Academic
+The BaseLayout defines a general template for each new webpage you want to add. It imports constants SITE_TITLE and SITE_DESCRIPTION which can be modified in the ```../config``` folder. Data placed there can be imported anywhere using import. 
 
+### Content
 
-# License
+You can add a [content collection](https://docs.astro.build/en/guides/content-collections/) in `/content/' folder, you will need add it at config.ts.
 
-Copyright 2017-present [George Cushen](https://georgecushen.com).
+#### config.ts
 
-Released under the [MIT](https://github.com/sourcethemes/academic-kickstart/blob/master/LICENSE.md) license.
+Where you need to define your content collections, we define our content schemas too.
+
+#### Blog
+
+Add your `md` blog post in the `/content/blog/` folder.
+
+##### Post format
+
+Add code with this format in the top of each post file.
+
+```
+---
+title: "Post Title"
+description: "Description"
+pubDate: "Post date format(Sep 10 2022)"
+heroImage: "Post Hero Image URL"
+---
+```
+
+### Pages
+
+#### Blog
+
+Blog uses Astro's content collection to query post's `md`.
+
+##### [page].astro
+
+The `[page].astro` is the route to work with the paginated post list. You can change there the number of items listed for each page and the pagination button labels.
+
+##### [slug].astro
+
+The `[slug].astro` is the base route for every blog post, you can customize the page layout or behaviour, by default uses `content/blog` for content collection and `PostLayout` as layout.
+
+#### Shop
+
+Add your `md` item in the `/pages/shop/` folder.
+
+##### [page].astro
+
+The `[page].astro` is the route to work with the paginated item list. You can change there the number of items listed for each page and the pagination button labels. The shop will render all `.md` files you include inside this folder.
+
+##### Item format
+
+Add code with this format at the top of each item file.
+
+```js
+---
+title: "Demo Item 1"
+description: "Item description"
+heroImage: "Item img url"
+details: true // show or hide details btn
+custom_link_label: "Custom btn link label"
+custom_link: "Custom btn link"
+pubDate: "Sep 15 2022"
+pricing: "$15"
+oldPricing: "$25.5"
+badge: "Featured"
+checkoutUrl: "https://checkouturl.com/"
+---
+```
+
+#### Static pages
+
+The other pages included in the template are static pages. The `index` page belongs to the root page. You can add your pages directly in the `/pages` folder and then add a link to those pages in the `sidebar` component.
+
+Feel free to modify the content included in the pages that the template contains or add the ones you need.
+
+### Theming
+
+To change the template theme change the `data-theme` attribute of the `<html>` tag in `BaseLayout.astro` file.
+
+You can choose among 30 themes available or create your custom theme. See themes available [here](https://daisyui.com/docs/themes/).
+
+## Sitemap
+
+The Sitemap is generated automatically when you build your website in the root of the domain. Please update the `robots.txt` file in the public folder with your site name URL for the Sitemap.
+
+## Deploy
+
+You can deploy your site on your favourite static hosting service such as Vercel, Netlify, GitHub Pages, etc.
+
+The configuration for the deployment varies depending on the platform where you are going to do it. See the [official Astro information](https://docs.astro.build/en/guides/deploy/) to deploy your website.
+
+> **⚠️ CAUTION** </br>
+> The Blog pagination of this template is implemented using dynamic route parameters in its filename and for now this format is incompatible with SSR deploy configs, so please use the default static deploy options for your deployments.
+
+## Contributing
+
+Suggestions and pull requests are welcomed! Feel free to open a discussion or an issue for a new feature request or bug.
+
+One of the best ways to contribute is to grab a [bug report or feature suggestion](https://github.com/manuelernestog/astrofy/issues) that has been marked `accepted` and dig in.
+
+Please be wary of working on issues _not_ marked as `accepted`. Just because someone has created an issue doesn't mean we'll accept a pull request for it.
+
+## License
+
+Astrofy is licensed under the MIT license — see the [LICENSE](https://github.com/manuelernestog/astrofy/blob/main/LICENSE) file for details.
+
+## Contributors
+
+<a href="https://github.com/manuelernestog/astrofy/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=manuelernestog/astrofy" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
