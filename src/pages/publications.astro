@@ -1,0 +1,105 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const publications = (await getCollection("publication")).sort(
+  (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
+);
+
+const typeLabel: Record<string, string> = {
+  journal: "Journal Article",
+  conference: "Conference Paper",
+  thesis: "Thesis",
+  preprint: "Preprint",
+};
+---
+
+<BaseLayout title="Publications" sideBarActiveItemID="publications">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Publications</div>
+  </div>
+
+  <div class="mb-8 text-justify">
+    A full list of my publications. Also available on
+    <a
+      class="link link-primary"
+      href="https://scholar.google.es/citations?user=vPRVVdwAAAAJ"
+      target="_blank"
+    >
+      Google Scholar
+    </a>.
+  </div>
+
+  <div class="flex flex-col gap-6">
+    {
+      publications.map((pub) => (
+        <div class="card card-bordered border-base-300 bg-base-100 shadow-sm">
+          <div class="card-body p-5">
+            <div class="flex items-start gap-3">
+              <div class="flex-1">
+                <div class="flex flex-wrap gap-2 mb-2">
+                  <span class="badge badge-outline text-xs">
+                    {typeLabel[pub.data.publicationType] ?? pub.data.publicationType}
+                  </span>
+                  {pub.data.featured && (
+                    <span class="badge badge-primary text-xs">Featured</span>
+                  )}
+                </div>
+                <h2 class="text-lg font-semibold leading-snug mb-1">
+                  {pub.data.url || pub.data.doi ? (
+                    <a
+                      href={pub.data.url ?? `https://doi.org/${pub.data.doi}`}
+                      target="_blank"
+                      class="link link-hover"
+                    >
+                      {pub.data.title}
+                    </a>
+                  ) : (
+                    pub.data.title
+                  )}
+                </h2>
+                <p class="text-sm text-base-content/70 mb-1">
+                  {pub.data.authors.join(", ")}
+                </p>
+                <p class="text-sm font-medium">
+                  {pub.data.venueShort
+                    ? `${pub.data.venueShort} — ${pub.data.venue}`
+                    : pub.data.venue}
+                  &nbsp;&bull;&nbsp;
+                  {new Date(pub.data.date).getFullYear()}
+                </p>
+                {pub.data.abstract && (
+                  <details class="mt-3">
+                    <summary class="cursor-pointer text-sm font-medium text-primary">Abstract</summary>
+                    <p class="mt-2 text-sm text-base-content/80 text-justify">{pub.data.abstract}</p>
+                  </details>
+                )}
+                <div class="flex flex-wrap gap-3 mt-3">
+                  {pub.data.doi && (
+                    <a
+                      href={`https://doi.org/${pub.data.doi}`}
+                      target="_blank"
+                      class="btn btn-xs btn-outline"
+                    >
+                      DOI
+                    </a>
+                  )}
+                  {pub.data.pdf && (
+                    <a href={pub.data.pdf} target="_blank" class="btn btn-xs btn-outline">
+                      PDF
+                    </a>
+                  )}
+                  {pub.data.url && !pub.data.doi && (
+                    <a href={pub.data.url} target="_blank" class="btn btn-xs btn-outline">
+                      Link
+                    </a>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</BaseLayout>

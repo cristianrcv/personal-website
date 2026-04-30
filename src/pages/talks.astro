@@ -1,0 +1,60 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const talks = (await getCollection("talk")).sort(
+  (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
+);
+---
+
+<BaseLayout title="Talks" sideBarActiveItemID="talks">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Talks</div>
+  </div>
+
+  <div class="flex flex-col gap-6">
+    {
+      talks.map((talk) => (
+        <div class="card card-bordered border-base-300 bg-base-100 shadow-sm">
+          <div class="card-body p-5">
+            <h2 class="text-lg font-semibold leading-snug mb-1">{talk.data.title}</h2>
+            <p class="text-sm font-medium text-base-content/80">
+              {talk.data.event}
+              {talk.data.location && ` — ${talk.data.location}`}
+            </p>
+            <p class="text-sm text-base-content/60">
+              {new Date(talk.data.date).toLocaleDateString("en-GB", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
+            </p>
+            {talk.data.abstract && (
+              <details class="mt-3">
+                <summary class="cursor-pointer text-sm font-medium text-primary">Abstract</summary>
+                <p class="mt-2 text-sm text-base-content/80 text-justify">{talk.data.abstract}</p>
+              </details>
+            )}
+            <div class="flex flex-wrap gap-3 mt-3">
+              {talk.data.slides && (
+                <a href={talk.data.slides} target="_blank" class="btn btn-xs btn-outline">
+                  Slides
+                </a>
+              )}
+              {talk.data.video && (
+                <a href={talk.data.video} target="_blank" class="btn btn-xs btn-outline">
+                  Video
+                </a>
+              )}
+              {talk.data.pdf && (
+                <a href={talk.data.pdf} target="_blank" class="btn btn-xs btn-outline">
+                  PDF
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</BaseLayout>
